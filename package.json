@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whisper-xiang/vitepress-whisper-blog.git"
+    "url": "git+git@github.com:whisper-xiang/vitepress-whisper-blog.git"
   },
   "author": "轻语 <xiangergou000@gmail.com>",
   "license": "MIT",
