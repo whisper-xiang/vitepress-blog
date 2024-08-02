@@ -10,7 +10,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'WEB 3',
     items: [
-      { text: 'Solidity 基础', link: '/web3/solidity/index' },
+      { text: 'Solidity 基础', link: '/web3/index' },
     ]
   },
   {
