@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy
+name: Build daily-notes
 
 # 触发条件: push 到 master 分支后
 on:
@@ -45,10 +45,11 @@ jobs:
 
       # 打包静态文件
       - name: Build
-        run: pnpm install && pnpm run build:github
+        # run: pnpm install && pnpm run build:github
+        run: pnpm install && pnpm run daily-notes
 
-      - name: Copy files
-        run: cp README.md ./dist/
+      # - name: Copy files
+      #   run: cp README.md ./dist/
 
       # 部署
       # - name: Deploy

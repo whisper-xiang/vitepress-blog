@@ -1,4 +1,8 @@
 import type { DefaultTheme } from 'vitepress'
+import fs from 'fs-extra'
+
+const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
+  fs.readJSONSync('./scripts/daily-notes.json', { throws: false }) || []
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/web3/': [
@@ -39,4 +43,5 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     },
   ],
+  '/daily-notes': sidebarDailyNotes
 }
