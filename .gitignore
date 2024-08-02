@@ -28,5 +28,6 @@ package-lock.json
 
 # misc
 .DS_Store
+docs/daily-notes/*
 
 # user-specific files

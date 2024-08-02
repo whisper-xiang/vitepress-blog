@@ -12,6 +12,7 @@ function formatTime(time) {
 
 /* 将 Issues 保存为 Markdown 文件 */
 function generateIssueMarkdown(issue) {
+  if (!issue.body) return
   const content = issue.body.replace(
     /\n/,
     `
@@ -102,7 +103,6 @@ try {
 
     generateIssueMarkdown(issue)
   }
-
   generateIndexFile(issueYearGroups)
 } catch (error) {
   console.error('Error getting issues:', error)
