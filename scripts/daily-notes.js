@@ -47,6 +47,7 @@ ${issueYearGroups
     ([year, issues]) => `## ${year} 年 (共计 ${issues.length} 篇)
 
 ${issues
+  .filter((issue) => issue.body)
   .map(
     (issue, index) =>
       `${index + 1}. ${formatTime(issue.created_at)} —— [${
