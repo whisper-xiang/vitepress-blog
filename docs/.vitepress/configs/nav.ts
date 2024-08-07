@@ -8,6 +8,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'JavaScript', link: '/web2/javascript/01-数据类型' },
       { text: 'HTML', link: '/web2/html/01-语义化标签' },
       { text: 'CSS', link: '/web2/css/01-Layout' },
+      { text: '浏览器原理', link: '/web2/browser/index' },
       { text: '前端工程', items: [{ text: '前端监控', link: '/web2/engineering/前端监控' }] },
     ],
   },

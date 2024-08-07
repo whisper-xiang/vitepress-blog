@@ -23,6 +23,30 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '函数式编程', link: '/web2/javascript/04-函数式编程' },
         { text: '异步流程控制', link: '/web2/javascript/05-异步流程控制' },
         { text: '设计模式', link: '/web2/javascript/06-设计模式' },
+        { text: '从V8的角度看JS', link: '/web2/javascript/07-从V8的角度看JS' },
+      ],
+    },
+    {
+      text: 'Chrome V8',
+      collapsed: false,
+      items: [
+        { text: 'V8如何执行JS代码', link: '/web2/javascript/08-V8如何执行JS代码' },
+        {
+          text: '从执行上下文到变量提升',
+          link: '/web2/javascript/09-从执行上下文到变量提升',
+        },
+        { text: '作用域', link: '/web2/javascript/10-作用域' },
+        { text: '闭包', link: '/web2/javascript/11-闭包' },
+        { text: '执行上下文中的this', link: '/web2/javascript/12-执行上下文中的this' },
+        {
+          text: '从调用栈溢出到尾递归优化',
+          link: '/web2/javascript/13-从调用栈溢出到尾递归优化',
+        },
+        {
+          text: '从Chrome架构到新tab的进程协作',
+          link: '/web2/javascript/14-从Chrome架构到新tab的进程协作',
+        },
+        { text: '从进程协作到事件循环', link: '/web2/javascript/15-从进程协作到事件循环' },
       ],
     },
     {
@@ -43,6 +67,25 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '1像素问题', link: '/web2/css/02-1像素问题' },
       ],
     },
+    {
+      text: '浏览器',
+      collapsed: false,
+      items: [
+        { text: '01-从用户搜索开始', link: '/web2/engineering/01-从用户搜索开始' },
+        { text: '02-浏览器缓存', link: '/web2/engineering/02-浏览器缓存' },
+        {
+          text: '03-数据请求：计算机网络基础',
+          link: '/web2/engineering/03-数据请求：计算机网络基础',
+        },
+
+        { text: '04-数据请求：TCP', link: '/web2/browser/04-数据请求：TCP' },
+        { text: '05-数据请求：HTTP请求流程', link: '/web2/browser/05-数据请求：HTTP请求流程' },
+        { text: '06-数据请求：HTTP与HTTPS', link: '/web2/browser/06-数据请求：HTTP与HTTPS' },
+        { text: '07-页面渲染：从文件到页面', link: '/web2/browser/07-页面渲染：从文件到页面' },
+        { text: '08-垃圾回收', link: '/web2/browser/01-从用户搜索开始' },
+      ],
+    },
+
     {
       text: '工程化',
       collapsed: false,
