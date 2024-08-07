@@ -93,6 +93,10 @@ try {
   const issueYearGroups = {}
 
   for (const issue of data) {
+    // 过滤pull request
+    if (issue.pull_request) continue
+
+    // 过滤非 whisper-xiang 创建的 issue
     if (issue.user.login !== owner) continue
 
     // 按创建年份分组
