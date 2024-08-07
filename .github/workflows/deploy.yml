@@ -53,14 +53,9 @@ jobs:
         run: cp README.md ./dist/
 
       # 部署
-      # - name: Deploy
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     token: ${{ secrets.ACCESS_TOKEN }}
-      #     commit-message: Deploying to gh-pages from @ ${{ github.sha }} 🚀
-      #     # 指定仓库
-      #     repository-name: whisper-xiang/daily-notes
-      #     # GitHub Pages 读取的分支
-      #     branch: main
-      #     # 静态文件所在目录
-      #     folder: dist
+      - name: Deploy to Vercel
+        run: |
+          curl -X POST https://api.vercel.com/v13/deployments \
+          -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{"name": "vitepress-whisper-blog", "target": "production"}'
