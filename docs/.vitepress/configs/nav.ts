@@ -5,16 +5,11 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'WEB 2',
     items: [
-      { text: 'HTML', link: '/web2/html/01-语义化标签' },
-      // { text: 'CSS', link: '/web2/CSS/index' },
       { text: 'JavaScript', link: '/web2/javascript/01-数据类型' },
+      { text: 'HTML', link: '/web2/html/01-语义化标签' },
+      { text: 'CSS', link: '/web2/css/01-Layout' },
+      { text: '前端工程', items: [{ text: '前端监控', link: '/web2/engineering/前端监控' }] },
     ],
-    // items: [
-    //   {
-    //     text: 'Javascript ',
-    //     items: [{ text: '数据类型', link: '/web2/javascript/数据类型.md', activeMatch: '^/JS/' }],
-    //   },
-    // ],
   },
   {
     text: 'WEB 3',
@@ -35,14 +30,4 @@ export const nav: DefaultTheme.Config['nav'] = [
       },
     ],
   },
-  // { text: '主页', link: 'https://fe-mm.com' },
-  // {
-  //   text: '捕蛇者说',
-  //   link: 'https://notes.fe-mm.com',
-  // },
-  // { text: 'mmPlayer', link: 'https://netease-music.fe-mm.com' },
-  // {
-  //   text: '油猴脚本',
-  //   link: 'https://github.com/maomao1996/tampermonkey-scripts',
-  // },
 ]

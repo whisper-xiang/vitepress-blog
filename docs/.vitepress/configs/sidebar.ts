@@ -35,6 +35,19 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: 'HTML5新增内容', link: '/web2/html/04-HTML5新增内容' },
       ],
     },
+    {
+      text: 'CSS',
+      collapsed: false,
+      items: [
+        { text: 'Layout', link: '/web2/css/01-Layout' },
+        { text: '1像素问题', link: '/web2/css/02-1像素问题' },
+      ],
+    },
+    {
+      text: '工程化',
+      collapsed: false,
+      items: [{ text: '前端监控', link: '/web2/engineering/前端监控' }],
+    },
   ],
   '/notes&thoughts/finance/': [
     {
