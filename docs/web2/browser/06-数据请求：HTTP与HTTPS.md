@@ -345,5 +345,3 @@ HTTP/1.1 200 OK Access-Control-Allow-Origin: \* Access-Control-Allow-Methods: GE
 # HTTPS
 
 # webSocket
-
-> 原文: <https://www.yuque.com/liuxia-1onjl/ebooks/yvgmeu>

@@ -178,5 +178,3 @@ console.log(bindMethod()) // 10
 2.  bind 返回的是一个绑定函数，而 call 和 apply 返回的是运行结果；
 3.  多次 bind() 是无效的，只会绑定到第一次调用的对象上；
 4.  call() / apply() / bind() 方法对于箭头函数来说只是传入参数，对它的 this 毫无影响。
-
-> 原文: <https://www.yuque.com/liuxia-1onjl/ebooks/re5cwh>

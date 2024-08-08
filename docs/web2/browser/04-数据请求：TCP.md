@@ -63,5 +63,3 @@ TCP（Transmission Control  Protocol，传输控制协议）是⼀种⾯向连�
 
 4、老师，那我打开谷歌浏览器里面开了 10 个页面，那就是至少有 40 个进程？windows 下我控制面板里能看到 40 个 google.exe？插件进程页面间能公用么
 作者回复: 不用这么多啊，浏览器进程 网络进程，GPU 进程都是共同的，你打开十个页面一般也就十几个进程。
-
-> 原文: <https://www.yuque.com/liuxia-1onjl/ebooks/gaw8m7>

@@ -181,5 +181,3 @@ Chrome 正在逐步构建 Chrome 基础服务（Chrome Foundation  Service）�
 同时 Chrome 还提供灵活的弹性架构，在强⼤性能设备上会以多进程的⽅式运⾏基础服务，但是如果在资源受限的设备上（如下图），Chrome 会将很多服务整合到⼀个进程中，从⽽节省内存占⽤。
 ![image.png](./img/6tlRi9g3Z4g-gV7r/1623845034807-bb67485c-a91a-4a6d-94a5-986c7fa5953c-901682.png)
 在资源不⾜的设备上，将服务合并到浏览器进程中
-
-> 原文: <https://www.yuque.com/liuxia-1onjl/ebooks/kvscix>
