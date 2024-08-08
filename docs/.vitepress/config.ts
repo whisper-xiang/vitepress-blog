@@ -2,7 +2,7 @@ import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 
-import { head, nav, sidebar } from './configs'
+import { head, nav, sidebar, algolia } from './configs'
 
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
@@ -25,6 +25,10 @@ export default defineConfig({
 
   /* 主题配置 */
   themeConfig: {
+    search: {
+      provider: 'local',
+    },
+
     i18nRouting: false,
 
     logo: '/avatar.png',
@@ -38,7 +42,9 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/whisper-xiang/vitepress-whisper-blog' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/whisper-xiang/vitepress-whisper-blog' },
+    ],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
@@ -57,6 +63,9 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇',
     },
+
+    /* Algolia DocSearch 配置 */
+    // algolia,
 
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
