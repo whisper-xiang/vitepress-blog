@@ -23,13 +23,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '函数式编程', link: '/web2/javascript/04-函数式编程' },
         { text: '异步流程控制', link: '/web2/javascript/05-异步流程控制' },
         { text: '设计模式', link: '/web2/javascript/06-设计模式' },
-        { text: '从V8的角度看JS', link: '/web2/javascript/07-从V8的角度看JS' },
       ],
     },
     {
       text: 'Chrome V8',
       collapsed: false,
       items: [
+        { text: '从V8的角度看JS', link: '/web2/javascript/07-从V8的角度看JS' },
         { text: 'V8如何执行JS代码', link: '/web2/javascript/08-V8如何执行JS代码' },
         {
           text: '从执行上下文到变量提升',
@@ -71,13 +71,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '浏览器',
       collapsed: false,
       items: [
-        { text: '01-从用户搜索开始', link: '/web2/engineering/01-从用户搜索开始' },
-        { text: '02-浏览器缓存', link: '/web2/engineering/02-浏览器缓存' },
+        { text: '01-从用户搜索开始', link: '/web2/browser/01-从用户搜索开始' },
+        { text: '02-浏览器缓存', link: '/web2/browser/02-浏览器缓存' },
         {
           text: '03-数据请求：计算机网络基础',
-          link: '/web2/engineering/03-数据请求：计算机网络基础',
+          link: '/web2/browser/03-数据请求：计算机网络基础',
         },
-
         { text: '04-数据请求：TCP', link: '/web2/browser/04-数据请求：TCP' },
         { text: '05-数据请求：HTTP请求流程', link: '/web2/browser/05-数据请求：HTTP请求流程' },
         { text: '06-数据请求：HTTP与HTTPS', link: '/web2/browser/06-数据请求：HTTP与HTTPS' },

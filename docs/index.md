@@ -14,7 +14,7 @@ hero:
     #   link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
-      theme: alt
+      # theme: alt
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
     - text: 测试页
