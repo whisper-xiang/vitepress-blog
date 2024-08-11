@@ -1,0 +1,106 @@
+# 简介
+
+`Javascript` 的设计初衷是为了为网页添加动态功能，比如动画、表单验证、`AJAX` 交互、数据可视化、浏览器本地存储等。
+
+## 诞生记
+
+[Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) 于 **1995** 年 应 Netscape 公司的要求，花了 `10` 天创建了一门 "看上去与 `Java` 足够相似，但是比 `Java` 简单“ 的脚本语言，后被命名为 `JavaScript`，其设计之初的目的是为了给网页添加动态功能。  
+::: tip
+
+- 借鉴 C 语言的基本语法；
+- 借鉴 Java 语言的数据类型和内存管理；
+- 借鉴 Scheme 语言，将函数提升到"第一等公民"（first class）的地位；
+- 借鉴 Self 语言，使用基于原型（ prototype ）的继承机制。
+  :::
+
+> 事实上，Brendan Eich 主要方向和兴趣是函数式编程， 对 Java 一点兴趣也没有。
+>
+> "与其说我爱 Javascript，不如说我恨它。它是 C 语言和 Self 语言一夜情的产物。十八世纪英国文学家约翰逊博士说得好：'它的优秀之处并非原创，它的原创之处并不优秀。'（the part that is good is not original, and the part that is original is not good.）" -- Brendan Eich
+
+## 与 java 的关系
+
+起初，JavaScript 被称为 "Mocha"，后来改名为 "LiveScript"。最终在 1995 年 12 月，Netscape 与 Sun（Java 的开发商）合作，将其正式命名为 "JavaScript"。
+
+这个名字的选择颇具策略性。当时，Java 语言正处于鼎盛时期，拥有广泛的开发者群体和使用者基础。Netscape 希望通过蹭 Java 的热度，来吸引更多人关注和使用。 仅此而已。
+
+## 与 ECMAScript 的关系
+
+ECMAScript(简称 ES) 是作为 JavaScript 的标准规范，每年都会有新版本释出，引入新的语法特性和功能。
+
+对于 JavaScript 来说，2015 年代表着一个重要的变革，因为 ECMAScript 6（也会被称作 ES6, ES2015）标准发布。
+
+自 ES6 之后，ECMAScript 采纳了更规律的版本发布机制，每年发布一个新版本，添加新的内容和更新。最近的版本是 2023 年 6 月发布的第 14 个版本。(ECMAScript® 2023 语言规范)。
+
+简单来讲，通过阅读 ECMAScript 标准，你可以学会怎样实现一个脚本语言；而通过阅读 JavaScript 文档，你可以学会怎样使用脚本语言编程。
+
+## 浏览器中的 JavaScript
+
+> Any application that can be written in JavaScript, will eventually be written in JavaScript.
+
+当然，这句话不是为了鼓吹 `Javascript`，而是为了告诉大家，浏览器可以做更多的事情。  
+但不可否人的是，正是浏览器的日渐强大，使得`JavaScript` 逐渐水涨船高。
+如今，`JavaScript` 不仅可以在浏览器中执行，也可以在服务端执行，甚至可以在任意搭载了 `JavaScript` 引擎 的设备中执行。
+
+浏览器中嵌入了 `JavaScript` 引擎，有时也称作“`JavaScript` 虚拟机”。
+不同的引擎有不同的“代号”，例如：
+
+- V8 —— Chrome、Opera 和 Edge 中的 JavaScript 引擎。
+- SpiderMonkey —— Firefox 中的 JavaScript 引擎。
+- “Chakra” 用于 IE。
+- “JavaScriptCore”、“Nitro” 和 “SquirrelFish” 用于 Safari。
+- ..
+
+### 浏览器中的 JavaScript 能做什么？
+
+浏览器中的 JavaScript 可以做与网页操作、用户交互和 Web 服务器相关的所有事情。
+
+例如，浏览器中的 JavaScript 可以做下面这些事：
+
+- 在网页中添加新的 HTML，修改网页已有内容和网页的样式。
+- 响应用户的行为，响应鼠标的点击，指针的移动，按键的按动。
+- 向远程服务器发送网络请求，下载和上传文件（所谓的 AJAX 和 COMET 技术）。
+- 获取或设置 cookie，向访问者提出问题或发送消息。
+- 记住客户端的数据（“本地存储”）。
+
+### 浏览器中的 JavaScript 不能做什么？
+
+为了用户的（信息）安全，在浏览器中的 `JavaScript` 的能力是受限的。目的是防止恶意网页获取用户私人信息或损害用户数据。
+
+此类限制的例子包括：
+
+- 网页中的 `JavaScript` 不能读、写、复制和执行硬盘上的任意文件。它没有直接访问操作系统的功能。
+
+- 现代浏览器允许 `JavaScript` 做一些文件相关的操作，但是这个操作是受到限制的。仅当用户做出特定的行为，`JavaScript` 才能操作这个文件。例如，用户把文件“拖放”到浏览器中，或者通过 `<input>` 标签选择了文件。
+
+- 有很多与相机/麦克风和其它设备进行交互的方式，但是这些都需要获得用户的明确许可。
+
+- 不同的标签页/窗口之间通常互不了解。有时候，也会有一些联系，例如一个标签页通过 `JavaScript` 打开的另外一个标签页。但即使在这种情况下，如果两个标签页打开的不是同一个网站（域名、协议或者端口任一不相同的网站），它们都不能相互通信。
+
+这就是所谓的“同源策略”。 这个限制也是为了用户的信息安全。例如，用户打开的 http://anysite.com 网页必须不能访问 http://gmail.com（另外一个标签页打开的网页）也不能从那里窃取信息。
+
+## 语言特点
+
+`JavaScript` 是一种动态的、解释型的、弱类型、多范式的、单线程的脚本语言。
+
+- 动态：JavaScript 语言支持动态类型，意味着变量的类型在运行时决定，而不是在编译时。
+- 解释型：JavaScript 语言是解释型的，这意味着程序在运行时才会进行编译。
+- 弱类型：JavaScript 语言是弱类型语言，这意味着类型转换和强制转换在语言中是内置的，并且可能会在不明显的情况下发生。这意味着你可以在某些情况下将不同类型的数据进行混合运算，语言会自动进行转换。
+- 多范式：JavaScript 语言支持多范式编程，包括函数式编程、命令式编程、面向对象编程等。
+- 单线程：JavaScript 语言是单线程的，这意味着同一时刻只能执行一个任务。
+
+关于这些特点，之后的文章会详细解释。
+
+## 其他领域
+
+除了浏览器，发展之今日，`Javascript` 逐渐有了更多元的能力。
+
+::: tip 常见的 JavaScript 运行环境
+
+- **node.js**：JavaScript 在服务器端运行的环境，可以用来编写服务器端的程序。
+- **vue/react/angular**：JavaScript 在客户端运行的环境，可以用来编写网页的动态功能。
+- **react native**：JavaScript 在移动端运行的环境，可以用来编写移动应用。
+- **electron：JavaScript** 在桌面端运行的环境，可以用来编写桌面应用程序。
+- **小程序：JavaScript** 在微信客户端运行的环境，可以用来编写微信小程序。
+- **uni-app**：JavaScript 在各类客户端运行的环境，可以用来编写跨平台的应用程序。
+- **chrome extension**：JavaScript 在浏览器中运行的环境，可以用来编写浏览器插件。
+- **web3.js / ethereum**：JavaScript 在区块链上运行的环境，可以用来编写去中心化应用。
