@@ -17,14 +17,14 @@ hero:
       # theme: alt
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
-    - text: 测试页
-      link: /test
-      theme: alt
+    # - text: 测试页
+    #   link: /test
+    #   theme: alt
 features:
   - icon: 📖
     title: 前端
     details: 整理前端常用知识点<small>（web2、web3）</small><br />如有异议，你说的对
-    link: /test
+    link: /web2/javascript/00-JavaScript简介
     linkText: 前端常用知识
 
   - icon: 📘
