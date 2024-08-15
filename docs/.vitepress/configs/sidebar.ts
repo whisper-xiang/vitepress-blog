@@ -17,7 +17,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'JavaScript 基础',
       collapsed: false,
       items: [
-        { text: '简介', link: '/web2/javascript/00-JavaScript简介' },
+        { text: '简介', link: '/web2/javascript/00-简介' },
         { text: '数据类型', link: '/web2/javascript/01-数据类型' },
         { text: '面向对象', link: '/web2/javascript/02-面向对象' },
         { text: '迭代方法', link: '/web2/javascript/03-迭代方法' },
