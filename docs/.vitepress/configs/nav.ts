@@ -5,7 +5,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'WEB 2',
     items: [
-      { text: 'JavaScript', link: '/web2/javascript/01-数据类型' },
+      { text: 'JavaScript', link: '/web2/javascript/00-简介' },
       { text: 'HTML', link: '/web2/html/01-语义化标签' },
       { text: 'CSS', link: '/web2/css/01-Layout' },
       { text: '浏览器原理', link: '/web2/browser/index' },
@@ -14,7 +14,10 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: 'WEB 3',
-    items: [{ text: 'Solidity 基础', link: '/web3/index' }],
+    items: [
+      { text: '区块链', link: '/web3/区块链/区块链技术与应用' },
+      { text: 'Solidity 基础', link: '/web3/index' },
+    ],
   },
   {
     text: '笔记 & 想法',

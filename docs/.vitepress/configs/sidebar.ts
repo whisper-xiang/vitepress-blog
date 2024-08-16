@@ -12,6 +12,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [{ text: '数据类型', link: '/web3/solidity/data-types' }],
     },
   ],
+  '/web3/区块链/': [
+    {
+      text: '区块链',
+      collapsed: false,
+      items: [{ text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' }],
+    },
+  ],
   '/web2/': [
     {
       text: 'JavaScript 基础',
