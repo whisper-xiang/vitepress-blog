@@ -5,7 +5,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'WEB 2',
     items: [
-      { text: 'JavaScript', link: '/web2/javascript/00-简介' },
+      { text: 'JavaScript', link: '/web2/javascript/00-简介', activeMatch: '^/web2/javascript/' },
       { text: 'HTML', link: '/web2/html/01-语义化标签' },
       { text: 'CSS', link: '/web2/css/01-Layout' },
       { text: '浏览器原理', link: '/web2/browser/index' },
