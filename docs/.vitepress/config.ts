@@ -5,7 +5,7 @@ import { head, nav, sidebar, algolia } from './configs'
 
 export default defineConfig({
   outDir: '../dist',
-  base: '/',
+  base: process.env.APP_BASE_PATH || '/',
 
   lang: 'zh-CN',
   title: '轻语',
