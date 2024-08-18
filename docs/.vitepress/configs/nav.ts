@@ -23,15 +23,16 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '笔记 & 想法',
     items: [
       { text: '日常笔记', link: '/daily-notes/', activeMatch: '^/daily-notes' },
-      { text: '金融学', link: '/notes&thoughts/finance/01-金融的定义与演化' },
-      { text: '代币经济学', link: '/notes&thoughts/tokenomics/index' },
       {
-        text: '杂文',
+        text: '读书笔记',
         items: [
           { text: '洞穴奇案', link: '/notes&thoughts/essay/洞穴奇案' },
           { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
         ],
       },
+      { text: '金融学', link: '/notes&thoughts/finance/01-金融的定义与演化' },
+      { text: '哲学', link: '/notes&thoughts/philosophy/01-我是谁' },
+      // { text: '代币经济学', link: '/notes&thoughts/tokenomics/index' },
     ],
   },
 ]

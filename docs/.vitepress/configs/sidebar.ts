@@ -128,12 +128,18 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   ],
   '/notes&thoughts/essay/': [
     {
-      text: '杂文',
+      text: '读书笔记',
       collapsed: false,
       items: [
         { text: '洞穴奇案', link: '/notes&thoughts/essay/洞穴奇案' },
-        { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
+        // { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
       ],
+    },
+  ],
+  '/notes&thoughts/philosophy/': [
+    {
+      text: '哲学',
+      items: [{ text: '我是谁', link: '/notes&thoughts/philosophy/01-我是谁' }],
     },
   ],
   '/daily-notes': sidebarDailyNotes,
