@@ -1,3 +1,12 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "scripts": {
+    "build": "git clone --depth=50 git+git@github.com:whisper-xiang/vitepress-whisper-blog.git && cd vitepress-whisper-blog && npm install && npm run build"
+  }
 }
