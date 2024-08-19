@@ -5,7 +5,7 @@ layoutClass: 'm-home-layout'
 hero:
   name: 轻语的
   text: 个人博客
-  tagline: 基于 VitePress 的个人前端导航页面
+  tagline: 希望每个滔滔不绝都能 言之有物
   image:
     src: /avatar.png
     alt: 轻语
