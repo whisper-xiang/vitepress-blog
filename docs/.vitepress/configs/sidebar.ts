@@ -28,7 +28,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '数据类型', link: '/web2/javascript/01-数据类型' },
         { text: '面向对象', link: '/web2/javascript/02-面向对象' },
         { text: '迭代方法', link: '/web2/javascript/03-迭代方法' },
-        { text: '函数式编程', link: '/web2/javascript/04-函数式编程' },
+        { text: '编程范式', link: '/web2/javascript/04-编程范式' },
         { text: '异步流程控制', link: '/web2/javascript/05-异步流程控制' },
         { text: '设计模式', link: '/web2/javascript/06-设计模式' },
       ],
@@ -89,7 +89,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '05-数据请求：HTTP请求流程', link: '/web2/browser/05-数据请求：HTTP请求流程' },
         { text: '06-数据请求：HTTP与HTTPS', link: '/web2/browser/06-数据请求：HTTP与HTTPS' },
         { text: '07-页面渲染：从文件到页面', link: '/web2/browser/07-页面渲染：从文件到页面' },
-        { text: '08-垃圾回收', link: '/web2/browser/01-从用户搜索开始' },
+        { text: '08-垃圾回收', link: '/web2/browser/08-垃圾回收' },
       ],
     },
 
