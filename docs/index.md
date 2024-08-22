@@ -13,7 +13,8 @@ hero:
     # - text: 茂茂物语
     #   link: https://notes.fe-mm.com
     - text: 前端导航
-      link: /nav/
+      link: /web2/javascript/00-简介
+      # link: /nav/
       # theme: alt
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
@@ -29,9 +30,9 @@ features:
 
   - icon: 📘
     title: 笔记 & 想法
-    details: 金融与哲学<small>（目标）</small><br />还有一些对世界的看法
+    details: 日常笔记和读书感悟<small></small><br />还有一些对世界的看法
     link: /notes&thoughts/finance/
-    linkText: 原来是这样 & 我觉着是这样
+    linkText: 几番波折经风雪，再见是我也非我
   # - icon: 📖
   #   title: 前端
   #   details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
