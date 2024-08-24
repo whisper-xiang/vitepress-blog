@@ -3,3 +3,7 @@
 @import './vitepress.scss';
 @import './medium-zoom.scss';
 @import './tailwind.scss';
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
