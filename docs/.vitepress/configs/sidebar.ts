@@ -133,7 +133,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         { text: '洞穴奇案', link: '/notes&thoughts/essay/洞穴奇案' },
         { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
-        { text: '一本书读懂Web3.0', link: '/notes&thoughts/essay/一本书读懂Web3.0' },
+        { text: '一本书读懂Web 3.0', link: '/notes&thoughts/essay/一本书读懂Web3.0' },
+        // { text: '内观', link: '/notes&thoughts/essay/me.md' },
       ],
     },
   ],
