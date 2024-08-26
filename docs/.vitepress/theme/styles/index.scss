@@ -5,5 +5,7 @@
 @import './tailwind.scss';
 
 table tr:nth-child(odd) {
-  background-color: #fff;
+  border-color: var(--vp-custom-block-tip-border);
+  color: var(--vp-custom-block-tip-text);
+  background-color: var(--vp-custom-block-tip-bg);
 }

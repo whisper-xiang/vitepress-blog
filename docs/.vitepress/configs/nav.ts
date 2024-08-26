@@ -29,9 +29,13 @@ export const nav: DefaultTheme.Config['nav'] = [
         activeMatch: '^/notes&thoughts/essay/',
       },
 
-      { text: '金融学', link: '/notes&thoughts/finance/01-金融的定义与演化' },
+      { text: '金融课', link: '/notes&thoughts/finance/01-金融的定义与演化' },
       { text: '哲学', link: '/notes&thoughts/philosophy/01-我是谁' },
-      // { text: '代币经济学', link: '/notes&thoughts/tokenomics/index' },
+      { text: 'Indie Hacker', link: '/notes&thoughts/indieHacker/01-简介' },
     ],
+  },
+  {
+    text: '轻语',
+    link: '/self/index.md',
   },
 ]
