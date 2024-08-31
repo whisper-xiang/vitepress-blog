@@ -15,7 +15,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'WEB 3',
     items: [
-      { text: '区块链', link: '/web3/区块链/区块链技术与应用' },
+      { text: '总览', link: '/web3/index' },
+      { text: '区块链', link: '/web3/区块链/index' },
       { text: 'Solidity 基础', link: '/web3/index' },
     ],
   },
@@ -31,7 +32,6 @@ export const nav: DefaultTheme.Config['nav'] = [
 
       { text: '金融课', link: '/notes&thoughts/finance/01-金融的定义与演化' },
       { text: '哲学', link: '/notes&thoughts/philosophy/01-我是谁' },
-      { text: 'Indie Hacker', link: '/notes&thoughts/indieHacker/01-简介' },
     ],
   },
   {

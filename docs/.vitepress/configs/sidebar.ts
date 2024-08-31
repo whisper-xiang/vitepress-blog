@@ -7,16 +7,42 @@ const sidebarDailyNotes: DefaultTheme.SidebarItem[] =
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/web3/': [
     {
-      text: 'Solidity 基础知识',
-      collapsed: false,
-      items: [{ text: '数据类型', link: '/web3/solidity/data-types' }],
+      text: '总览',
+      link: '/web3/index.md',
     },
-  ],
-  '/web3/区块链/': [
+    // {
+    //   text: 'Solidity 基础知识',
+    //   collapsed: false,
+    //   items: [{ text: '数据类型', link: '/web3/solidity/data-types' }],
+    // },
     {
       text: '区块链',
       collapsed: false,
-      items: [{ text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' }],
+      items: [
+        {
+          text: '概念',
+          link: '/web3/区块链/index.md',
+        },
+        {
+          text: '比特币',
+          items: [
+            {
+              text: '01-数据结构',
+              link: '/web3/区块链/BTC/01-数据结构',
+            },
+          ],
+        },
+        {
+          text: '以太坊',
+          items: [
+            {
+              text: '较之BTC',
+              link: '/web3/区块链/EVM/概念',
+            },
+          ],
+        },
+        { text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' },
+      ],
     },
   ],
   '/web2/': [
@@ -92,11 +118,15 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '08-垃圾回收', link: '/web2/browser/08-垃圾回收' },
       ],
     },
-
+  ],
+  '/web2/engineering/': [
     {
-      text: '工程化',
+      text: '前端基建',
       collapsed: false,
-      items: [{ text: '前端监控', link: '/web2/engineering/前端监控' }],
+      items: [
+        { text: '前端规范', link: '/web2/engineering/前端规范' },
+        { text: '前端监控', link: '/web2/engineering/前端监控' },
+      ],
     },
   ],
   '/notes&thoughts/finance/': [
@@ -134,6 +164,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '洞穴奇案', link: '/notes&thoughts/essay/洞穴奇案' },
         { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
         { text: '一本书读懂Web 3.0', link: '/notes&thoughts/essay/一本书读懂Web3.0' },
+        { text: '独立开发手册', link: '/notes&thoughts/essay/独立开发手册' },
       ],
     },
   ],
