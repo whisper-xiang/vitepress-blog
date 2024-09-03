@@ -9,7 +9,13 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'HTML', link: '/web2/html/01-语义化标签' },
       { text: 'CSS', link: '/web2/css/01-Layout' },
       { text: '浏览器原理', link: '/web2/browser/index' },
-      { text: '前端工程', items: [{ text: '前端监控', link: '/web2/engineering/前端监控' }] },
+      {
+        text: '前端工程',
+        items: [
+          { text: '前端规范', link: '/web2/engineering/normalize/环境和工具' },
+          { text: '前端监控', link: '/web2/engineering/前端监控' },
+        ],
+      },
     ],
   },
   {

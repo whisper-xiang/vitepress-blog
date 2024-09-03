@@ -119,16 +119,92 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
   ],
-  '/web2/engineering/': [
+  '/web2/engineering/normalize': [
+    { text: '统一开发环境和工具', link: '/web2/engineering/normalize/环境和工具' },
     {
-      text: '前端基建',
+      text: '统一代码规范',
       collapsed: false,
       items: [
-        { text: '前端规范', link: '/web2/engineering/前端规范' },
-        { text: '前端监控', link: '/web2/engineering/前端监控' },
+        {
+          text: '命名规范',
+          collapsed: false,
+          items: [
+            {
+              text: '文件命名',
+              link: '/web2/engineering/normalize/name/文件命名',
+            },
+            {
+              text: 'JS 命名规范',
+              link: '/web2/engineering/normalize/name/文件命名',
+            },
+            {
+              text: 'Class 命名规范',
+              link: '/web2/engineering/normalize/name/文件命名',
+            },
+          ],
+        },
+        {
+          text: 'HTML 规范',
+          collapsed: false,
+          items: [
+            {
+              text: '代码规范',
+              link: '/web2/engineering/normalize/html/代码规范',
+            },
+          ],
+        },
+        {
+          text: '图片规范',
+          collapsed: false,
+          items: [
+            {
+              text: '图片格式',
+              link: '/web2/engineering/normalize/image/图片格式',
+            },
+            {
+              text: '图片尺寸',
+              link: '/web2/engineering/normalize/image/图片格式',
+            },
+            {
+              text: '图片引入',
+              link: '/web2/engineering/normalize/image/图片格式',
+            },
+          ],
+        },
+        {
+          text: 'CSS 规范',
+          collapsed: false,
+          items: [
+            {
+              text: '代码规范',
+              link: '/web2/engineering/normalize/css/代码规范',
+            },
+          ],
+        },
+        {
+          text: 'JS 规范',
+          collapsed: false,
+          items: [
+            {
+              text: '代码规范',
+              link: '/web2/engineering/normalize/js/代码规范',
+            },
+            {
+              text: '注释规范',
+              link: '/web2/engineering/normalize/js/注释规范',
+            },
+            {
+              text: 'JSX 书写规范',
+              link: '/web2/engineering/normalize/js/JSX书写规范',
+            },
+          ],
+        },
       ],
     },
+    { text: '统一分支管理', link: '/web2/engineering/normalize/branch/gitFlow.md' },
+    // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
+
   '/notes&thoughts/finance/': [
     {
       text: '金融基础知识',
