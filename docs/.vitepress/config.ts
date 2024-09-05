@@ -18,14 +18,6 @@ export default defineConfig({
   /* markdown 配置 */
   markdown: {
     lineNumbers: true,
-    config: (md) => {
-      const originalRender = md.render
-      md.render = function (...args) {
-        const result = originalRender.call(this, ...args)
-        const wordCount = result.split(/\s+/).length
-        return `${result}\n\n<p style="font-size: 0.8rem;">字数统计: ${wordCount}</p>`
-      }
-    },
   },
 
   /* 主题配置 */

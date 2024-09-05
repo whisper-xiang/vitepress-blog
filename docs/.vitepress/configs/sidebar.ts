@@ -135,11 +135,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             },
             {
               text: 'JS 命名规范',
-              link: '/web2/engineering/normalize/name/文件命名',
+              link: '/web2/engineering/normalize/name/JS命名',
             },
             {
-              text: 'Class 命名规范',
-              link: '/web2/engineering/normalize/name/文件命名',
+              text: 'CSS 命名规范',
+              link: '/web2/engineering/normalize/name/CSS命名',
             },
           ],
         },
@@ -150,24 +150,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             {
               text: '代码规范',
               link: '/web2/engineering/normalize/html/代码规范',
-            },
-          ],
-        },
-        {
-          text: '图片规范',
-          collapsed: false,
-          items: [
-            {
-              text: '图片格式',
-              link: '/web2/engineering/normalize/image/图片格式',
-            },
-            {
-              text: '图片尺寸',
-              link: '/web2/engineering/normalize/image/图片格式',
-            },
-            {
-              text: '图片引入',
-              link: '/web2/engineering/normalize/image/图片格式',
             },
           ],
         },
@@ -196,6 +178,24 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             {
               text: 'JSX 书写规范',
               link: '/web2/engineering/normalize/js/JSX书写规范',
+            },
+          ],
+        },
+        {
+          text: '图片规范',
+          collapsed: false,
+          items: [
+            {
+              text: '图片格式',
+              link: '/web2/engineering/normalize/image/图片格式',
+            },
+            {
+              text: '图片尺寸',
+              link: '/web2/engineering/normalize/image/图片大小',
+            },
+            {
+              text: '图片引入',
+              link: '/web2/engineering/normalize/image/图片引入',
             },
           ],
         },

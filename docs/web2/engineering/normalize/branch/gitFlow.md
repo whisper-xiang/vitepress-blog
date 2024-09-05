@@ -27,7 +27,7 @@ commitizen init cz-conventional-changelog --save --save-exact
 
 安装并添加完后，我们便可以使用 git cz 命令替换 git commit 来使用了。我们修改一个文件并 git add 后，通过 git cz 试一下：
 
-![alt text](image.png)
+<!-- ![alt text](image.png) -->
 
 可以看到，git cz 给出了 commit 的几种类型选项，如下：
 
@@ -38,16 +38,6 @@ commitizen init cz-conventional-changelog --save --save-exact
 - refactor 代码重构
 - [git commit-msg hook](https://github.com/typicode/husky)
 - **changelog**
-
-### **4. 自定义 CLI**
-
-- ESLint
-- prettier
-- ts-config
-- .editorconfig
-- 打包规则
-
-### **5. 录入 AI**
 
 - 现状：
   - 分支混乱，且发布分支太过随意，功能 B 分支未拉取已发布的功能 A 分支代码， 导致线上的分支 A 的功能丢失。
