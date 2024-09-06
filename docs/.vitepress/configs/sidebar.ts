@@ -125,31 +125,39 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '统一代码规范',
       collapsed: false,
       items: [
-        {
-          text: '命名规范',
-          collapsed: false,
-          items: [
-            {
-              text: '文件命名',
-              link: '/web2/engineering/normalize/name/文件命名',
-            },
-            {
-              text: 'JS 命名规范',
-              link: '/web2/engineering/normalize/name/JS命名',
-            },
-            {
-              text: 'CSS 命名规范',
-              link: '/web2/engineering/normalize/name/CSS命名',
-            },
-          ],
-        },
+        // {
+        //   text: '命名规范',
+        //   collapsed: true,
+        //   items: [
+        //     {
+        //       text: '文件命名',
+        //       link: '/web2/engineering/normalize/name/文件命名',
+        //     },
+        //     {
+        //       text: 'JS 命名规范',
+        //       link: '/web2/engineering/normalize/name/JS命名',
+        //     },
+        //     {
+        //       text: 'CSS 命名规范',
+        //       link: '/web2/engineering/normalize/name/CSS命名',
+        //     },
+        //   ],
+        // },
         {
           text: 'HTML 规范',
           collapsed: false,
           items: [
             {
+              text: '命名规范',
+              link: '/web2/engineering/normalize/html/命名规范',
+            },
+            {
               text: '代码规范',
               link: '/web2/engineering/normalize/html/代码规范',
+            },
+            {
+              text: '注释规范',
+              link: '/web2/engineering/normalize/html/注释规范',
             },
           ],
         },
@@ -160,6 +168,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             {
               text: '代码规范',
               link: '/web2/engineering/normalize/css/代码规范',
+            },
+            {
+              text: '命名规范',
+              link: '/web2/engineering/normalize/css/命名规范',
             },
           ],
         },
