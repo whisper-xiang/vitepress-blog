@@ -39,6 +39,12 @@ export const NAV_DATA: NavData[] = [
         desc: '常用开发工具chrome插件',
         link: 'https://www.baidufe.com/fehelper/index/index.html',
       },
+      {
+        icon: 'https://it-tools.tech/favicon.ico',
+        title: 'it-tools',
+        desc: '开发多种实用工具集合',
+        link: 'https://it-tools.tech/',
+      },
     ],
   },
   // {

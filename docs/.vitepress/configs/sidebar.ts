@@ -205,12 +205,24 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
               text: 'vue 2代码规范',
               link: '/web2/engineering/normalize/vue/vue2代码规范',
             },
+            {
+              text: 'vue 3命名规范',
+              link: '/web2/engineering/normalize/vue/vue3命名规范',
+            },
+            {
+              text: 'vue 3代码规范',
+              link: '/web2/engineering/normalize/vue/vue3代码规范',
+            },
           ],
         },
         {
           text: '图片规范',
           collapsed: false,
           items: [
+            {
+              text: '命名规范',
+              link: '/web2/engineering/normalize/image/命名规范',
+            },
             {
               text: '图片格式',
               link: '/web2/engineering/normalize/image/图片格式',
