@@ -48,10 +48,15 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present 轻语',
     },
 
+    editLink: {
+      pattern: 'https://github.com/whisper-xiang/vitepress-whisper-blog/blob/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },
+
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
-        dateStyle: 'short',
+        dateStyle: 'full',
         timeStyle: 'medium',
       },
     },
