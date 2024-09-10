@@ -120,7 +120,27 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
   ],
   '/web2/engineering/normalize': [
-    { text: '统一开发环境和工具', link: '/web2/engineering/normalize/环境和工具' },
+    {
+      text: '统一开发环境和工具',
+      items: [
+        {
+          text: '环境和工具',
+          link: '/web2/engineering/normalize/environment/环境和工具',
+        },
+        {
+          text: 'ESLint',
+          link: '/web2/engineering/normalize/environment/eslint',
+        },
+        {
+          text: 'TSConfig',
+          link: '/web2/engineering/normalize/environment/tsConfig',
+        },
+        {
+          text: 'Prettier',
+          link: '/web2/engineering/normalize/environment/prettier',
+        },
+      ],
+    },
     {
       text: '统一代码规范',
       collapsed: false,
@@ -205,10 +225,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
               text: 'vue 2代码规范',
               link: '/web2/engineering/normalize/vue/vue2代码规范',
             },
-            {
-              text: 'vue 3命名规范',
-              link: '/web2/engineering/normalize/vue/vue3命名规范',
-            },
+            // {
+            //   text: 'vue 3命名规范',
+            //   link: '/web2/engineering/normalize/vue/vue3命名规范',
+            // },
             {
               text: 'vue 3代码规范',
               link: '/web2/engineering/normalize/vue/vue3代码规范',
@@ -239,7 +259,19 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
       ],
     },
-    { text: '统一分支管理', link: '/web2/engineering/normalize/branch/gitFlow.md' },
+    {
+      text: '统一分支管理',
+      items: [
+        {
+          text: 'Git提交规范',
+          link: '/web2/engineering/normalize/git/git提交规范',
+        },
+        {
+          text: 'GitFlow',
+          link: '/web2/engineering/normalize/git/gitFlow.md',
+        },
+      ],
+    },
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
 
