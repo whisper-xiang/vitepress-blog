@@ -21,7 +21,7 @@ commitizen init cz-conventional-changelog --save --save-exact
 }
 ```
 
-之后需要 git commit 的操作全部换成 git cz:
+之后需要 `git commit` 的操作全部换成 `git cz`:
 
 安装并添加完后，我们便可以使用 git cz 命令替换 git commit 来使用了。我们修改一个文件并 git add 后，通过 git cz 试一下：
 
@@ -36,6 +36,18 @@ commitizen init cz-conventional-changelog --save --save-exact
 - refactor 代码重构
 - [git commit-msg hook](https://github.com/typicode/husky)
 - **changelog**
+
+## #### **Commitlint**
+
+- **Commitlint** 用于验证提交信息是否符合规范。
+
+- 安装：
+
+  `npm install --save-dev @commitlint/{config-conventional,cli}`
+
+- 配置 `commitlint.config.js` 文件:
+
+  `module.exports = {extends: ['@commitlint/config-conventional']};`
 
 ## commitlint.config
 
@@ -85,16 +97,6 @@ module.exports = {
   },
   prompt: {
     messages: {
-      // type: "Select the type of change that you're committing:",
-      // scope: "Denote the SCOPE of this change (optional):",
-      // customScope: "Denote the SCOPE of this change:",
-      // subject: "Write a SHORT, IMPERATIVE tense description of the change:\n",
-      // body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
-      // breaking: 'List any BREAKING CHANGES (optional). Use "|" to break new line:\n',
-      // footerPrefixsSelect: "Select the ISSUES type of changeList by this change (optional):",
-      // customFooterPrefixs: "Input ISSUES prefix:",
-      // footer: "List any ISSUES by this change. E.g.: #31, #34:\n",
-      // confirmCommit: "Are you sure you want to proceed with the commit above?"
       // 中文版
       type: '选择你要提交的类型 :',
       scope: '选择一个提交范围（可选）:',
@@ -108,76 +110,6 @@ module.exports = {
       confirmCommit: '是否提交或修改commit ?'
     },
     types: [
-      // {
-      //   value: "feat",
-      //   name: "feat:     🚀  A new feature",
-      //   emoji: "🚀"
-      // },
-      // {
-      //   value: "fix",
-      //   name: "fix:      🧩  A bug fix",
-      //   emoji: "🧩"
-      // },
-      // {
-      //   value: "docs",
-      //   name: "docs:     📚  Documentation only changes",
-      //   emoji: "📚"
-      // },
-      // {
-      //   value: "style",
-      //   name: "style:    🎨  Changes that do not affect the meaning of the code",
-      //   emoji: "🎨"
-      // },
-      // {
-      //   value: "refactor",
-      //   name: "refactor: ♻️   A code change that neither fixes a bug nor adds a feature",
-      //   emoji: "♻️"
-      // },
-      // {
-      //   value: "perf",
-      //   name: "perf:     ⚡️  A code change that improves performance",
-      //   emoji: "⚡️"
-      // },
-      // {
-      //   value: "test",
-      //   name: "test:     ✅  Adding missing tests or correcting existing tests",
-      //   emoji: "✅"
-      // },
-      // {
-      //   value: "build",
-      //   name: "build:    📦️   Changes that affect the build system or external dependencies",
-      //   emoji: "📦️"
-      // },
-      // {
-      //   value: "ci",
-      //   name: "ci:       🎡  Changes to our CI configuration files and scripts",
-      //   emoji: "🎡"
-      // },
-      // {
-      //   value: "chore",
-      //   name: "chore:    🔨  Other changes that don't modify src or test files",
-      //   emoji: "🔨"
-      // },
-      // {
-      //   value: "revert",
-      //   name: "revert:   ⏪️  Reverts a previous commit",
-      //   emoji: "⏪️"
-      // },
-      // {
-      //   value: "wip",
-      //   name: "wip:      🕔  work in process",
-      //   emoji: "🕔"
-      // },
-      // {
-      //   value: "workflow",
-      //   name: "workflow: 📋  workflow improvements",
-      //   emoji: "📋"
-      // },
-      // {
-      //   value: "type",
-      //   name: "type:     🔰  type definition file changes",
-      //   emoji: "🔰"
-      // }
       // 中文版
       { value: 'feat', name: '特性:   🚀  新增功能', emoji: '🚀' },
       { value: 'fix', name: '修复:   🧩  修复缺陷', emoji: '🧩' },
@@ -202,7 +134,6 @@ module.exports = {
     allowBreakingChanges: ['feat', 'fix']
   }
 }
-
 ```
 
 ## lint-staged.config
@@ -217,3 +148,41 @@ module.exports = {
   '*.md': ['prettier --write']
 }
 ```
+
+### **自动生成 Changelog**
+
+使用工具如 **standard-changelog** 或 **auto-changelog** 自动生成 changelog。
+
+#### **Standard Changelog**
+
+- 安装：
+
+  `npm install --save-dev standard-changelog`
+
+- 配置 `package.json`:
+
+  `"scripts": {   "changelog": "standard-changelog" }`
+
+- 生成 changelog:
+
+  `npm run changelog`
+
+## husky
+
+- **Husky** 可以在提交前运行 Git 钩子，确保提交信息符合规范。
+
+- 安装：
+
+  bash
+
+  复制代码
+
+  `npm install husky --save-dev`
+
+- 配置 `.husky/commit-msg` 文件:
+
+  bash
+
+  复制代码
+
+  `#!/bin/sh . "$(dirname "$0")/_/husky.sh"  npx commitlint --edit $1`

@@ -139,6 +139,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           text: 'Prettier',
           link: '/web2/engineering/normalize/environment/prettier',
         },
+        {
+          text: 'Stylelint',
+          link: '/web2/engineering/normalize/environment/stylelint',
+        },
       ],
     },
     {

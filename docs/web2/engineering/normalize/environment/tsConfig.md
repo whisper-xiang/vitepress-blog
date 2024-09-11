@@ -1,4 +1,6 @@
-# TypeScript 配置
+# TypeScript 配置文件
+
+## 1. tsconfig.node.json 和 tsconfig.app.json
 
 `npm init vue@latest` 命令会创建一个基于 `Vue.js` 的 `TypeScript` 项目模板，其中包含了三个 `TypeScript` 配置文件：`tsconfig.json`、`tsconfig.node.json` 和 `tsconfig.app.json`。
 
@@ -19,7 +21,7 @@
 
 `tsconfig.node.json` 和 `tsconfig.app.json` 分别是用于 `Node.js`（用于 Vite 本身） 和应用程序的 `TypeScript` 配置文件。它们的作用是为不同的构建目标提供不同的 `TypeScript` 编译选项。
 
-在这三个配置文件中，`tsconfig.app.json` 是用于应用程序的配置文件，其中包含了一些 `Angular` 相关的选项，例如 resolveJsonModule。这个选项用于启用 `TypeScript` 的 JSON 模块解析功能，它允许您在 `TypeScript` 代码中导入 JSON 文件。但是，由于这个选项是 `Angular` 特有的，因此在 Vue.js 项目中可能会导致编辑器报错。
+在这三个配置文件中，`tsconfig.app.json` 是用于应用程序的配置文件，其中包含了一些 `Angular` 相关的选项，例如 `resolveJsonModule`。这个选项用于启用 `TypeScript` 的 JSON 模块解析功能，它允许您在 `TypeScript` 代码中导入 `JSON` 文件。但是，由于这个选项是 `Angular` 特有的，因此在 Vue.js 项目中可能会导致编辑器报错。
 
 如果您不打算使用 `Angular`，可以将 `tsconfig.app.json` 文件删除，或者将其中的 `Angular` 相关选项删除。这样做不会影响您的 `Vue.js` 项目，因为它们并不依赖于 `Angular`。
 
