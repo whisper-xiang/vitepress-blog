@@ -62,7 +62,6 @@ src 源码目录
 |-- utils 工具类
 |-- views 视图目录
 | |-- role role 模块名
-
 | |-- |-- index.less role 模块样式
 | |-- |-- components role 模块通用组件文件夹
 | |-- |-- | -- role-list.vue role 列表页面
@@ -137,18 +136,19 @@ assets 为静态资源，里面存放 images, styles, icons 等静态资源，�
 
 ### 2.4、 components 目录
 
-此目录应按照组件进行目录划分，目录命名为 `kebab-case`，一个组件必须一个单独的目录 ；
-
-举例如下：
+此目录应按照组件进行目录划分，目录命名为 `(PascalCase)`，一个组件必须一个单独的目录 ；
 
 ```
-|components
-|-- error-log
-|   |-- index.vue
-|   |-- index.less
-|-- markdown-editor
-|   |-- index.vue
-|   |-- index.js
+components/
+  |- MyComponent
+  |  |- index.vue
+  |  |- index.less
+  |  |- MyChildComponent
+  |  |  |- index.vue
+  |  |  |- index.less
+  |- MyOtherComponent
+  |  |- index.vue
+  |  |- index.less
 ```
 
 ### 2.5、 constants 目录
@@ -170,7 +170,6 @@ assets 为静态资源，里面存放 images, styles, icons 等静态资源，�
 
 ```js
 // employee-const.js
-
 export const EMPLOYEE_STATUS = {
   NORMAL: {
     value: 1,
@@ -213,7 +212,7 @@ export default {
 
 ### 2.6、 router 与 store 目录
 
-这两个目录一定要将业务进行拆分，不能放到一个 js 文件里。
+这两个目录一定要将业务进行拆分，不能放到一个 `js` 文件里。
 
 - `router` 尽量按照 `views` 中的结构保持一致
 
