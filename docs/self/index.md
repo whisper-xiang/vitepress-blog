@@ -11,6 +11,6 @@ aside: false
 
 今年的任务：
 
-- `Web 3.0 `
-- 成为 `Indie Hacker`
+- Web 3.0
+- Indie Hacker
 - AI

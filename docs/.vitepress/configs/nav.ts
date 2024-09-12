@@ -27,6 +27,12 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
   },
   {
+    text: 'AI',
+    items: [
+      { text: '现阶段的价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
+    ],
+  },
+  {
     text: '笔记 & 想法',
     items: [
       { text: '日常笔记', link: '/daily-notes/', activeMatch: '^/daily-notes' },
