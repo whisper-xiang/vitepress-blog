@@ -1,8 +1,8 @@
-# stylelint
+# Stylelint
 
-Stylelint 是一个强大的 CSS、Sass、Less 等样式语言的代码质量检查工具。它通过静态代码分析的方式来确保样式符合团队的代码风格规范，帮助开发者发现并修复样式中的错误或不规范的写法。
+`Stylelint` 是一个强大的 `CSS`、`Sass`、`Less` 等样式语言的代码质量检查工具。它通过静态代码分析的方式来确保样式符合团队的代码风格规范，帮助开发者发现并修复样式中的错误或不规范的写法。
 
-.stylelintrc 文件用于定义 Stylelint 的配置选项，包括规则集、插件、忽略规则等。这个文件可以有多种格式，包括 JSON、YAML、JS 文件等，常见的文件名是 .stylelintrc，或者 .stylelintrc.json、.stylelintrc.yml、stylelint.config.js。
+.stylelintrc 文件用于定义 `Stylelint` 的配置选项，包括规则集、插件、忽略规则等。这个文件可以有多种格式，包括 `JSON`、`YAML`、`JS` 文件等，常见的文件名是 `.stylelintrc`，或者 `.stylelintrc.json`、`.stylelintrc.yml`、`stylelint.config.js`。
 
 ## .stylelintrc.js
 
@@ -62,4 +62,4 @@ stats.html
 
 ## Stylelint 与 Prettier 的冲突
 
-Stylelint 和 Prettier 在某些方面可能存在冲突（如格式化风格），通常可以通过引入 stylelint-config-prettier 来禁用那些和 Prettier 格式化风格相冲突的规则，使得它们能够一起工作。
+`Stylelint` 和 Prettier 在某些方面可能存在冲突（如格式化风格），通常可以通过引入 `stylelint-config-prettier` 来禁用那些和 `Prettier` 格式化风格相冲突的规则，使得它们能够一起工作。

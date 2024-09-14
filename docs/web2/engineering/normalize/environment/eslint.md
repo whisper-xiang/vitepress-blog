@@ -1,6 +1,8 @@
-# ESLint
+# ESLint 规范
 
 ## .eslintrc.js
+
+.eslintrc.js 是 ESLint 的传统配置文件格式之一，它可以是多种格式（如 .eslintrc.json, .eslintrc.yaml），但 .js 文件允许在配置中使用 JavaScript 语法。
 
 ```
 // @see: http://eslint.cn
@@ -65,7 +67,9 @@ module.exports = {
 
 ```
 
-## `eslint.config.js`
+## eslint.config.js
+
+eslint.config.js 是 ESLint 未来的配置标准（自 ESLint v8.21.0 引入），其目标是简化配置并改善性能。这种配置方式目前是可选的，但将来可能会取代 .eslintrc.js。
 
 ```js
 // eslint.config.js
@@ -137,6 +141,16 @@ export default [
   },
 ]
 ```
+
+## 相较
+
+| 特性           | .eslintrc.js                            | eslint.config.js                        |
+| -------------- | --------------------------------------- | --------------------------------------- |
+| 引入版本       | 已使用多年的传统配置格式                | 自 ESLint v8.21.0 引入的新的配置格式    |
+| 支持的语法     | CommonJS 语法(module.exports)           | ES Module 语法(import/export)           |
+| 可读性和模块化 | 复杂项目中可能出现冗长的配置            | 支持更模块化、结构化的配置方式          |
+| 未来支持       | 可能会被逐渐取代                        | 未来的标准配置格式                      |
+| 灵活性         | 支持 JavaScript 动态语法,但结构较为固定 | 更灵活的配置方式,可以动态加载和组合配置 |
 
 ## .eslintignore
 
