@@ -92,3 +92,20 @@ table {
 .dark::view-transition-old(root) {
   z-index: 9999;
 }
+
+/* 深色模式 */
+.dark {
+  body::after {
+    content: '';
+    z-index: -1;
+    // opacity: 0.5; /* 可调节透明度 */
+    pointer-events: none; /* 防止背景图阻挡页面交互 */
+    position: fixed;
+    background: url('./moon.webp');
+    background-size: contain;
+    width: 300px;
+    height: 600px;
+    top: 0;
+    right: 0;
+  }
+}
