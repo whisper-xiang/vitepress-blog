@@ -29,7 +29,10 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: 'AI',
     items: [
-      { text: '现阶段的价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
+       { text: '基础', link: '/AI/基础/00-绪论' },
+       { text: '认知', link: '/AI/认知/现阶段的价值和盈利方向' },
+
+      // { text: '现阶段的价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
     ],
   },
   {

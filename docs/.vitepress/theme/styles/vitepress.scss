@@ -5,14 +5,14 @@
 }
 .dark::after {
   content: '';
-  z-index: -1;
+  z-index: 30;
   pointer-events: none; /* 防止背景图阻挡页面交互 */
   position: fixed;
   background: url('./moon.png');
   background-size: contain;
   width: 300px;
   height: 200px;
-  top: 60px;
+  top: -20px;
   right: -80px;
 }
 

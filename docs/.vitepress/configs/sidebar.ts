@@ -324,5 +324,44 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [{ text: '我是谁', link: '/notes&thoughts/philosophy/01-我是谁' }],
     },
   ],
+  '/AI': [
+    {
+      text: '基础知识',
+      items: [
+        { text: '00-绪论', link: '/AI/基础/00-绪论' },
+        // { text: '01-机器学习', link: '/AI/01-机器学习' },
+        // { text: '02-深度学习', link: '/AI/02-深度学习' },
+        // { text: '03-自然语言处理', link: '/AI/03-自然语言处理' },
+        // { text: '04-计算机视觉', link: '/AI/04-计算机视觉' },
+        // { text: '05-强化学习', link: '/AI/05-强化学习' },
+        // { text: '06-推荐系统', link: '/AI/06-推荐系统' },
+        // { text: '07-数据分析', link: '/AI/07-数据分析' },
+        // { text: '08-机器学习工程', link: '/AI/08-机器学习工程' },
+      ],
+    },
+    // {
+    //   text: 'AI 算法',
+    //   items: [
+    //     { text: '01-线性回归', link: '/AI/算法/01-线性回归' },
+    //     { text: '02-逻辑回归', link: '/AI/算法/02-逻辑回归' },
+    //     { text: '03-朴素贝叶斯', link: '/AI/算法/03-朴素贝叶斯' },
+    //     { text: '04-决策树', link: '/AI/算法/04-决策树' },
+    //     { text: '05-随机森林', link: '/AI/算法/05-随机森林' },
+    //     { text: '06-支持向量机', link: '/AI/算法/06-支持向量机' },
+    //     { text: '07-K-近邻算法', link: '/AI/算法/07-K-近邻算法' },
+    //     { text: '08-聚类算法', link: '/AI/算法/08-聚类算法' },
+    //     { text: '09-深度学习', link: '/AI/算法/09-深度学习' },
+    //     { text: '10-强化学习', link: '/AI/算法/10-强化学习' },
+    //     { text: '11-推荐系统', link: '/AI/算法/11-推荐系统' },
+    //     { text: '12-数据分析', link: '/AI/算法/12-数据分析' },
+    //   ],
+    // }
+    {
+      text: 'AI 认知',
+      items: [
+        { text: '现阶段价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
+      ]
+    }
+  ],
   '/daily-notes': sidebarDailyNotes,
 }
