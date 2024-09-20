@@ -5,15 +5,31 @@
 }
 .dark::after {
   content: '';
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   z-index: 30;
   pointer-events: none; /* 防止背景图阻挡页面交互 */
   position: fixed;
   background: url('./moon.png');
-  background-size: contain;
-  width: 300px;
-  height: 200px;
-  top: -20px;
-  right: -80px;
+  background-size: contain; /* 保持图片宽高比 */
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -50px;
+  right: -50px;
+  animation: rotate 300s linear infinite; /* 2秒内完成一次360度旋转，线性动画，循环无限次 */
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dark:hover::after {
+  transform: scale(1.1); /* 悬停时放大效果 */
 }
 
 /* 大屏大一点 */

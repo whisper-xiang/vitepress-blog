@@ -23,16 +23,14 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: '总览', link: '/web3/index' },
       { text: '区块链', link: '/web3/区块链/index' },
-      { text: 'Solidity 基础', link: '/web3/index' },
+      // { text: 'Solidity 基础', link: '/web3/index' },
     ],
   },
   {
     text: 'AI',
     items: [
-       { text: '基础', link: '/AI/基础/00-绪论' },
+       { text: '基础', link: '/AI/基础/01-绪论' },
        { text: '认知', link: '/AI/认知/现阶段的价值和盈利方向' },
-
-      // { text: '现阶段的价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
     ],
   },
   {
