@@ -31,6 +31,8 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: 'AI',
     items: [
        { text: '基础', link: '/AI/基础/01-绪论' },
+       {text: '机器学习', link: '/AI/机器学习/机器学习'},
+       { text: '深度学习', link: '/AI/深度学习/深度学习' },
        { text: '认知', link: '/AI/认知/现阶段的价值和盈利方向' },
     ],
   },

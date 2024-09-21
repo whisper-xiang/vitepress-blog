@@ -343,11 +343,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: '机器学习',
       items: [
+        {text: '原理', link: '/AI/机器学习/机器学习'}
       ],
     },
     {
       text: '深度学习',
       items: [
+        {text: '原理', link: '/AI/深度学习/深度学习'}
       ],
     },
     {
