@@ -12,6 +12,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         text: '前端工程',
         items: [
+          {text: '前端框架', link: '/web2/framework/Vue2基础'},
           { text: '前端规范', link: '/web2/engineering/normalize/environment/环境和工具' },
           { text: '前端监控', link: '/web2/engineering/前端监控' },
         ],

@@ -118,6 +118,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '08-垃圾回收', link: '/web2/browser/08-垃圾回收' },
       ],
     },
+    {
+      text: '前端框架',
+      collapsed: false,
+      items: [
+        { text: 'Vue2基础', link: '/web2/framework/Vue2基础' },
+      ],
+    }
   ],
   '/web2/engineering/normalize': [
     {
