@@ -3,8 +3,8 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 轻语的
-  text: 个人博客
+  name: 轻语
+  text: 日积跬步以至千里
   tagline: 希望每个滔滔不绝都能 言之有物
   image:
     src: /avatar.png
