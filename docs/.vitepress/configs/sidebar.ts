@@ -19,27 +19,17 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '区块链',
       collapsed: false,
       items: [
-        {
-          text: '概念',
-          link: '/web3/区块链/index.md',
-        },
+        { text: '概念', link: '/web3/区块链/index.md' },
         {
           text: '比特币',
           items: [
-            {
-              text: '01-数据结构',
-              link: '/web3/区块链/BTC/01-数据结构',
-            },
+            { text: '01-数据结构', link: '/web3/区块链/BTC/01-数据结构' },
+            { text: '02-密码学原理', link: '/web3/区块链/BTC/02-密码学原理' },
           ],
         },
         {
           text: '以太坊',
-          items: [
-            {
-              text: '较之BTC',
-              link: '/web3/区块链/EVM/概念',
-            },
-          ],
+          items: [{ text: '较之BTC', link: '/web3/区块链/EVM/概念' }],
         },
         { text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' },
       ],
@@ -121,10 +111,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: '前端框架',
       collapsed: false,
-      items: [
-        { text: 'Vue2基础', link: '/web2/framework/Vue2基础' },
-      ],
-    }
+      items: [{ text: 'Vue2基础', link: '/web2/framework/Vue2基础' }],
+    },
   ],
   '/web2/engineering/normalize': [
     {
@@ -156,40 +144,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '统一代码规范',
       collapsed: false,
       items: [
-        // {
-        //   text: '命名规范',
-        //   collapsed: true,
-        //   items: [
-        //     {
-        //       text: '文件命名',
-        //       link: '/web2/engineering/normalize/name/文件命名',
-        //     },
-        //     {
-        //       text: 'JS 命名规范',
-        //       link: '/web2/engineering/normalize/name/JS命名',
-        //     },
-        //     {
-        //       text: 'CSS 命名规范',
-        //       link: '/web2/engineering/normalize/name/CSS命名',
-        //     },
-        //   ],
-        // },
         {
           text: 'HTML 规范',
           collapsed: false,
           items: [
-            {
-              text: '命名规范',
-              link: '/web2/engineering/normalize/html/命名规范',
-            },
-            {
-              text: '代码规范',
-              link: '/web2/engineering/normalize/html/代码规范',
-            },
-            {
-              text: '注释规范',
-              link: '/web2/engineering/normalize/html/注释规范',
-            },
+            { text: '命名规范', link: '/web2/engineering/normalize/html/命名规范' },
+            { text: '代码规范', link: '/web2/engineering/normalize/html/代码规范' },
+            { text: '注释规范', link: '/web2/engineering/normalize/html/注释规范' },
           ],
         },
         {
@@ -250,22 +211,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           text: '图片规范',
           collapsed: false,
           items: [
-            {
-              text: '命名规范',
-              link: '/web2/engineering/normalize/image/命名规范',
-            },
-            {
-              text: '图片格式',
-              link: '/web2/engineering/normalize/image/图片格式',
-            },
-            {
-              text: '图片尺寸',
-              link: '/web2/engineering/normalize/image/图片大小',
-            },
-            {
-              text: '图片引入',
-              link: '/web2/engineering/normalize/image/图片引入',
-            },
+            { text: '命名规范', link: '/web2/engineering/normalize/image/命名规范' },
+            { text: '图片格式', link: '/web2/engineering/normalize/image/图片格式' },
+            { text: '图片尺寸', link: '/web2/engineering/normalize/image/图片大小' },
+            { text: '图片引入', link: '/web2/engineering/normalize/image/图片引入' },
           ],
         },
       ],
@@ -342,28 +291,23 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
     {
       text: '机器学习',
-      items: [
-        {text: '原理', link: '/AI/机器学习/机器学习'}
-      ],
+      items: [{ text: '原理', link: '/AI/机器学习/机器学习' }],
     },
     {
       text: '深度学习',
-      items: [
-        {text: '原理', link: '/AI/深度学习/深度学习'}
-      ],
+      items: [{ text: '原理', link: '/AI/深度学习/深度学习' }],
     },
     {
       text: '自然语言处理',
-      items: [
-      ],
+      items: [{ text: '原理', link: '/AI/自然语言处理/自然语言处理' }],
     },
     {
       text: 'AI 认知',
       items: [
         { text: '现阶段价值和盈利方向', link: '/AI/认知/现阶段的价值和盈利方向' },
         { text: '发展历史及当前定位', link: '/AI/认知/发展历史及当前定位' },
-      ]
-    }
+      ],
+    },
   ],
   '/daily-notes': sidebarDailyNotes,
 }
