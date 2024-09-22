@@ -288,6 +288,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '01-绪论', link: '/AI/基础/01-绪论' },
         { text: '02-图灵测试', link: '/AI/基础/02-图灵测试' },
         { text: '03-算法和算力', link: '/AI/基础/03-算法和算力' },
+        { text: '04-大数据', link: '/AI/基础/04-大数据' },
       ],
     },
     {
