@@ -25,6 +25,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           items: [
             { text: '01-数据结构', link: '/web3/区块链/BTC/01-数据结构' },
             { text: '02-密码学原理', link: '/web3/区块链/BTC/02-密码学原理' },
+            { text: '03-共识协议', link: '/web3/区块链/BTC/03-共识协议' },
           ],
         },
         {
