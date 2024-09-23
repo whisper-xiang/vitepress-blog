@@ -15,5 +15,5 @@ import { NAV_DATA } from './data'
 <br />
 
 ::: tip
-该导航由 [maomao](https://github.com/maomao1996) 开发。
+模板来源： [maomao](https://github.com/maomao1996) 。
 :::

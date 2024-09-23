@@ -14,7 +14,8 @@ export const nav: DefaultTheme.Config['nav'] = [
         items: [
           { text: '前端框架', link: '/web2/framework/Vue2基础' },
           { text: '前端规范', link: '/web2/engineering/normalize/environment/环境和工具' },
-          { text: '前端监控', link: '/web2/engineering/前端监控' },
+          { text: 'DevOps', link: '/web2/engineering/DevOps/index' },
+          // { text: '前端监控', link: '/web2/engineering/前端监控' },
         ],
       },
     ],
@@ -47,7 +48,7 @@ export const nav: DefaultTheme.Config['nav'] = [
         activeMatch: '^/notes&thoughts/essay/',
       },
 
-      { text: '金融课', link: '/notes&thoughts/finance/01-金融的定义与演化' },
+      { text: '金融', link: '/notes&thoughts/finance/香帅北大金融课/01-金融的定义与演化' },
       { text: '哲学', link: '/notes&thoughts/philosophy/01-我是谁' },
     ],
   },

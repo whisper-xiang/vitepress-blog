@@ -26,6 +26,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             { text: '01-数据结构', link: '/web3/区块链/BTC/01-数据结构' },
             { text: '02-密码学原理', link: '/web3/区块链/BTC/02-密码学原理' },
             { text: '03-共识协议', link: '/web3/区块链/BTC/03-共识协议' },
+            { text: '04-具体实现', link: '/web3/区块链/BTC/04-具体实现' },
           ],
         },
         {
@@ -238,7 +239,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 
   '/notes&thoughts/finance/': [
     {
-      text: '金融基础知识',
+      text: '北大金融课',
       collapsed: false,
       items: [
         { text: '01-金融的定义与演化', link: '/notes&thoughts/finance/01-金融的定义与演化' },
@@ -260,6 +261,15 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '11-基金', link: '/notes&thoughts/finance/11-基金' },
         { text: '12-另类投资', link: '/notes&thoughts/finance/12-另类投资' },
         { text: '13-基金业绩', link: '/notes&thoughts/finance/13-基金业绩' },
+      ],
+    },
+    {
+      text: '杂文',
+      items: [
+        {
+          text: '美联储降息',
+          link: '/notes&thoughts/finance/杂文/美联储降息',
+        },
       ],
     },
   ],

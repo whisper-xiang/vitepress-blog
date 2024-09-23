@@ -50,6 +50,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .dark::after {
+    display: none;
+  }
+}
+
 /* 首页样式修改 */
 .VPHero {
   .image-bg {
