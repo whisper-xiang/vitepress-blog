@@ -49,7 +49,7 @@ src 源码目录
 |-- build 构建相关
 |-- api 所有 api 接口
 | | -- sign.ts 加解密规则
-| | -- index.ts 导出所有 封装 axios
+| | -- index.ts 封装 axios
 | | -- module
 | | | -- user.ts 封装 user api
 | | -- interface
