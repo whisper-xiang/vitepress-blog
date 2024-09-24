@@ -46,42 +46,55 @@ export default HelloWorld
 
 ```markdown
 src 源码目录
+|-- build 构建相关
 |-- api 所有 api 接口
+| | -- sign.ts 加解密规则
+| | -- index.ts 导出所有 封装 axios
+| | -- module
+| | | -- user.ts 封装 user api
+| | -- interface
+| | | -- user.ts 定义 user api 接口
 |-- assets 静态资源，images, icons, styles 等
 |-- components 公用组件
-|-- config 配置信息
+|-- config 配置信息 全局默认配置项
 |-- constants 常量信息，项目所有 Enum, 全局常量等
+| | -- index-const.ts 索引常量
+| | -- role-const.ts 角色常量
+| | -- employee-const.ts 员工常量
 |-- directives 自定义指令
-|-- i18n 国际化
 |-- lib 外部引用的插件存放及修改文件
+|-- i18n 国际化
 |-- mock 模拟接口，临时存放
 |-- plugins 插件，全局使用
 |-- router 路由，统一管理
-|-- store store, 统一管理
+|-- store 状态，统一管理
+| |-- index.ts 导出 store
+| |-- modules
+| | |-- user.ts 定义 user store
 |-- layout 布局，自定义样式主题
 |-- utils 工具类
 |-- views 视图目录
-| |-- role role 模块名
+| |-- role role 模块
 | |-- |-- index.less role 模块样式
 | |-- |-- components role 模块通用组件文件夹
-| |-- |-- | -- role-list.vue role 列表页面
-| |-- |-- | -- role-add.vue role 新建页面
-| |-- |-- | -- role-update.vue role 更新页面
+| |-- |-- | -- RoleList.vue role 列表页面
+| |-- |-- | -- RoleAdd.vue role 新建页面
+| |-- |-- | -- RoleUpdate.vue role 更新页面
 | |-- |-- index.vue role 模块入口文件
 | |-- employee employee 模块
 ```
 
 ### 2.2、 api 目录
 
-- `api`文件要以`api`为结尾，比如 `employee-api.js`、`login-api.js`，方便查找。
-- `api`文件必须导出对象必须以`Api`为结尾，如：`employeeApi`、`noticeApi`
+- `api`文件要以 `api` 为结尾，比如 `employee-api.js`、`login-api.js`，方便查找。
+- `api`文件必须导出对象必须以 `Api` 为结尾，如：`departmentApi`、`noticeApi`
 - `api`中以一个对象将方法包裹
 - `api`中的注释，必须和后端 `swagger` 文档保持一致，同时保留后端作者
 
 ```js
 // department-api.js
 
-import { getRequest, postRequest } from '/@/lib/axios'
+import { getRequest, postRequest } from '@/api'
 
 export const departmentApi = {
   /**
@@ -155,9 +168,10 @@ components/
 
 此目录存放项目所有常量和枚举:
 
-- 常量文件要以 `const` 为结尾，比如`login-const.js、file-const.js`
-- 变量要：大写下划线，比如 `LOGIN_RESULT_ENUM、LOGIN_SUCCESS、LOGIN_FAIL`
-- 如果是枚举，变量必须以 ENUM 为结尾，如：`LOGIN_RESULT_ENUM、CODE_FRONT_COMPONENT_ENUM`
+- 文件命名： 常量文件要以 `const` 为结尾，比如 login-const.js、file-const.js
+- 变量命名：
+  - 大写下划线，比如 LOGIN_RESULT_ENUM、LOGIN_SUCCESS、LOGIN_FAIL
+  - 如果是枚举，变量必须以 `ENUM` 为结尾，如：LOGIN_RESULT_ENUM、CODE_FRONT_COMPONENT_ENUM
 
 目录结构：
 
