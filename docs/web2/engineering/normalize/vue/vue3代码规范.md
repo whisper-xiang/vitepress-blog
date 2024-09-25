@@ -368,3 +368,32 @@ const inputRef = ref();
 ```
 
 ### 3.4 注释
+
+- 对于业务函数，即函数中有多个业务逻辑，需逐一注释。
+
+```js
+const login = (formEl: FormInstance | undefined) => {
+  if (!formEl) return
+  formEl.validate(async (valid) => {
+    if (!valid) return
+    loading.value = true
+    try {
+      // 1.执行登录接口
+      const { data } = await loginApi.login({ ...loginForm, password: md5(loginForm.password) })
+      userStore.setToken(data.access_token)
+
+      // 2.添加动态路由
+      await initDynamicRouter()
+
+      // 3.清空 tabs、keepAlive 数据
+      tabsStore.setTabs([])
+      keepAliveStore.setKeepAliveName([])
+
+      // 4.跳转到首页
+      router.push(HOME_URL)
+    } finally {
+      loading.value = false
+    }
+  })
+}
+```
