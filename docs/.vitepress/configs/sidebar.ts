@@ -33,11 +33,15 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             { text: '08-比特币脚本', link: '/web3/区块链/BTC/08-比特币脚本' },
             { text: '09-分叉', link: '/web3/区块链/BTC/09-分叉' },
             { text: '10-匿名性', link: '/web3/区块链/BTC/10-匿名性' },
+            { text: '11-思考', link: '/web3/区块链/BTC/11-思考' },
           ],
         },
         {
           text: '以太坊',
-          // items: [{ text: '较之BTC', link: '/web3/区块链/EVM/概念' }],
+          items: [
+            { text: '12-概念', link: '/web3/区块链/EVM/12-概念' },
+            { text: '13-账户', link: '/web3/区块链/EVM/13-账户' },
+          ],
         },
         // { text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' },
       ],
