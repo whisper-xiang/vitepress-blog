@@ -120,10 +120,26 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '08-垃圾回收', link: '/web2/browser/08-垃圾回收' },
       ],
     },
+    { text: '性能优化', link: '/web2/others/性能优化' },
     {
       text: '前端框架',
       collapsed: false,
-      items: [{ text: 'Vue2基础', link: '/web2/framework/Vue2基础' }],
+      items: [
+        { text: 'Vue2基础', link: '/web2/framework/Vue2基础' },
+        // { text: 'Vue3基础', link: '/web2/framework/Vue3基础' },
+        {
+          text: 'Angular基础',
+          items: [
+            { text: '01-AngularCLI', link: '/web2/framework/Angular基础/01-AngularCLI' },
+            { text: '02-组件', link: '/web2/framework/Angular基础/02-组件' },
+            { text: '03-表单', link: '/web2/framework/Angular基础/03-表单' },
+            { text: '04-HTTP', link: '/web2/framework/Angular基础/04-HTTP' },
+            { text: '05-Router', link: '/web2/framework/Angular基础/05-Router' },
+            { text: '06-导航守卫', link: '/web2/framework/Angular基础/06-导航守卫' },
+            { text: '07-模块', link: '/web2/framework/Angular基础/07-模块' },
+          ],
+        },
+      ],
     },
   ],
   '/web2/engineering/normalize': [
