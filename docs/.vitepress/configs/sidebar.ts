@@ -292,6 +292,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           text: '美联储降息',
           link: '/notes&thoughts/finance/杂文/美联储降息',
         },
+        {
+          text: '什么是市场经济',
+          link: '/notes&thoughts/finance/杂文/市场经济',
+        },
       ],
     },
   ],
