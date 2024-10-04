@@ -14,8 +14,8 @@ export const nav: DefaultTheme.Config['nav'] = [
         items: [
           { text: '规范', link: '/web2/engineering/normalize/environment/环境和工具' },
           { text: '框架', link: '/web2/framework/Vue2基础' },
-          { text: '架构', link: '/web2/architect/概述' },
-          { text: '性能', link: '/web2/others/性能优化' },
+          // { text: '架构', link: '/web2/architect/概述' },
+          // { text: '性能', link: '/web2/others/性能优化' },
           // { text: 'DevOps', link: '/web2/engineering/DevOps/index' },
           // { text: '前端监控', link: '/web2/engineering/前端监控' },
         ],

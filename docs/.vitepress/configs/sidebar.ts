@@ -41,6 +41,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           items: [
             { text: '12-概念', link: '/web3/区块链/EVM/12-概念' },
             { text: '13-账户', link: '/web3/区块链/EVM/13-账户' },
+            { text: '14-数据结构', link: '/web3/区块链/EVM/14-数据结构' },
+            { text: '15-GHOST', link: '/web3/区块链/EVM/15-GHOST' },
+            { text: '16-挖矿算法', link: '/web3/区块链/EVM/16-挖矿算法' },
+            { text: '17-难度调整', link: '/web3/区块链/EVM/17-难度调整' },
+            { text: '18-权益证明', link: '/web3/区块链/EVM/18-权益证明' },
+            { text: '19-智能合约', link: '/web3/区块链/EVM/19-智能合约' },
           ],
         },
         // { text: '区块链技术与应用', link: '/web3/区块链/区块链技术与应用' },
@@ -297,6 +303,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
           link: '/notes&thoughts/finance/杂文/市场经济',
         },
       ],
+    },
+    {
+      text: '股票',
+      items: [{ text: '基础', link: '/notes&thoughts/finance/股票/01-基础' }],
     },
   ],
   '/notes&thoughts/essay/': [
