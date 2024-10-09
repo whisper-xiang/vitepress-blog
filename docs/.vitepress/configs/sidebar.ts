@@ -360,6 +360,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '工具',
       items: [{ text: 'Cursor', link: '/AI/工具/cursor' }],
     },
+    {
+      text: '提示词',
+      items: [
+        { text: '前端规范', link: '/AI/提示词/前端规范' },
+        { text: '行文拟人', link: '/AI/提示词/行文拟人' },
+      ],
+    },
   ],
   '/daily-notes': sidebarDailyNotes,
 }

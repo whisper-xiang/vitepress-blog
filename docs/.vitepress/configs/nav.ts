@@ -38,6 +38,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '深度学习', link: '/AI/深度学习/深度学习' },
       { text: '认知', link: '/AI/认知/现阶段的价值和盈利方向' },
       { text: '工具', link: '/AI/工具/cursor' },
+      { text: '提示词', link: '/AI/提示词/前端规范' },
       // { text: 'coze', link: '/AI/coze' },
     ],
   },
