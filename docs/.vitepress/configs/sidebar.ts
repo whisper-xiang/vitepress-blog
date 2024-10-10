@@ -144,6 +144,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
   ],
+
   '/web2/engineering/normalize': [
     {
       text: '统一开发环境和工具',
@@ -263,6 +264,15 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
+  ],
+
+  '/web2/engineering/监控': [
+    { text: '01-概览', link: '/web2/engineering/监控/01-概览' },
+    { text: '02-错误搜集', link: '/web2/engineering/监控/02-错误搜集' },
+    { text: '03-性能', link: '/web2/engineering/监控/03-性能' },
+    { text: '04-用户行为', link: '/web2/engineering/监控/04-用户行为' },
+    { text: '05-上报', link: '/web2/engineering/监控/05-上报' },
+    { text: '06-架构设计', link: '/web2/engineering/监控/06-架构设计' },
   ],
 
   '/notes&thoughts/finance/': [
