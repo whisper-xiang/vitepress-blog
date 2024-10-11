@@ -53,6 +53,33 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
   ],
+  '/web3/智能合约/': [
+    {
+      text: 'Foundry',
+      collapsed: false,
+      items: [{ text: '概述', link: '/web3/智能合约/Foundry/01-概述' }],
+    },
+    {
+      text: 'Solidity',
+      collapsed: false,
+      items: [{ text: '概述', link: '/web3/智能合约/Solidity/01-概述' }],
+    },
+    {
+      text: 'OpenZeppelin',
+      collapsed: false,
+      items: [{ text: '概述', link: '/web3/智能合约/OpenZeppelin/01-概述' }],
+    },
+    {
+      text: 'Remix',
+      collapsed: false,
+      items: [{ text: '概述', link: '/web3/智能合约/Remix/01-概述' }],
+    },
+    {
+      text: 'Hardhat',
+      collapsed: false,
+      items: [{ text: '概述', link: '/web3/智能合约/Hardhat/01-概述' }],
+    },
+  ],
   '/web2/': [
     {
       text: 'JavaScript 基础',

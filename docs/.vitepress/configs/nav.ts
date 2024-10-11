@@ -15,6 +15,10 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: '规范', link: '/web2/engineering/normalize/environment/环境和工具' },
           { text: '框架', link: '/web2/framework/Vue2基础' },
           { text: '监控', link: '/web2/engineering/监控/01-概览' },
+          // { text: 'Docker', link: '/web2/DevOps/Docker' },
+          // { text: 'Docker', link: '/web2/engineering/Docker' },
+          // { text: 'Nginx', link: '/web2/engineering/Nginx' },
+          // { text: 'Git', link: '/web2/engineering/Git' },
           // { text: '架构', link: '/web2/architect/概述' },
           // { text: '性能', link: '/web2/others/性能优化' },
           // { text: 'DevOps', link: '/web2/engineering/DevOps/index' },
@@ -27,7 +31,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: '总览', link: '/web3/index' },
       { text: '区块链', link: '/web3/区块链/index' },
-      // { text: 'Solidity 基础', link: '/web3/index' },
+      { text: '智能合约', link: '/web3/智能合约/Foundry/01-概述' },
     ],
   },
   {
