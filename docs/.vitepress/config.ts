@@ -57,7 +57,7 @@ export default defineConfig({
       text: '最后更新于',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium',
+        timeStyle: 'short',
       },
     },
 
