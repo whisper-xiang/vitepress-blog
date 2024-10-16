@@ -100,7 +100,7 @@ Cursor 自动生成代码块，只需要按下 Tab 键即可。
 
 也可以自定义 prompt：
 
-```commit message 提示词
+```
 You are an expert software engineer.
 Review the provided context and diffs which are about to be committed to a git repo.
 Review the diffs carefully.

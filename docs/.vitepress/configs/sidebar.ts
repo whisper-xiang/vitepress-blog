@@ -293,6 +293,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
 
+  '/web2/DevOps/': [{ text: 'Git', link: '/web2/DevOps/Git/Git' }],
+
   '/web2/engineering/监控': [
     { text: '01-概览', link: '/web2/engineering/监控/01-概览' },
     { text: '02-错误搜集', link: '/web2/engineering/监控/02-错误搜集' },

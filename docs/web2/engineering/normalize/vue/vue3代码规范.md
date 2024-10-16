@@ -232,29 +232,6 @@ export default {
 
 - `store` 按照业务进行拆分不同的 `js` 文件
 
-### 2.7、 views 目录
-
-目录要求，按照模块划分，其中具体文件名要求如下：
-
-- 如果是列表页面，要以 `list` 为结尾，如`role-list.vue`、`cache-list.vue`
-- 如果是表单页面，要以 `form` 为结尾，如 `role-form.vue、notice-add-form.vue`
-- 如果是 `modal` 弹窗，要以 `modal` 为结尾，如 表单弹窗 `role-form-modal.vue`，详情 `role-detail-modal.vue`
-- 如果是 `drawer` 抽屉页面，要同上以 `Drawer` 为结尾
-
-```markdown
-|-- views 视图目录
-| |-- role role 模块名
-| | |-- role-list.vue role 列表页面
-| | |-- role-add-form.vue role 新建页面
-| | |-- role-update-form-modal.vue role 更新页面
-| | |-- index.less role 模块样式
-| | |-- components role 模块通用组件文件夹
-| | | |-- role-title-modal.vue role 弹出框组件
-| |-- employee employee 模块
-| |-- behavior-log 行为日志 log 模块
-| |-- code-generator 代码生成器模块
-```
-
 ## 三、Vue3 组合式 API 规范
 
 ### 3.1、使用 setup 语法糖
