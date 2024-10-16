@@ -130,3 +130,33 @@ table {
 .dark::view-transition-old(root) {
   z-index: 9999;
 }
+
+.dark {
+  .Layout {
+    height: 100vh;
+    background-image: url('../bg.png');
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+  .VPNav {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .VPSidebar,
+  .content-body {
+    background-color: transparent !important;
+  }
+  .curtain {
+    background-color: transparent !important;
+  }
+}
