@@ -55,7 +55,7 @@ so existing user sessions might be invalidated.
 Commitizen/cz-cli: 是一个格式化 `commit message` 的工具，可以约束提交者按照制定的规范一步一步的填写 `commit message`。
 
 ```shell
-npm install commitizen --save
+pnpm i commitizen --save
 ```
 
 然后在项目的根目录里， 执行以下的命令，使其支持 `Angular` 的 `commit message` 格式。
@@ -92,7 +92,9 @@ commitizen init cz-conventional-changelog --save --save-exact
 - [commitizen](https://github.com/commitizen/cz-cli) ，一款标准化 `git commit` 信息的工具。
 
 ```shell
-npm install --save-dev @commitlint/cli @commitlint/config-conventional
+pnpm i --save-dev @commitlint/cli @commitlint/config-conventional
+
+
 
 ```
 
@@ -107,7 +109,7 @@ module.exports = {
 安装`huksy`（git 钩子工具）
 
 ```shell
-npm install husky --save-dev
+pnpm i husky --save-dev
 ```
 
 初始化`huksy`
@@ -115,6 +117,13 @@ npm install husky --save-dev
 ```shell
 # 使用以下命令初始化 Husky。这会为项目创建一个 .husky/ 目录，并添加必要的 Git hooks。
 npx husky install
+
+# 添加 commit hook 钩子
+# npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'  # add命令已废弃
+
+# 手动添加 commit hook 钩子
+echo "npx --no -- commitlint --edit ${1}" > .husky/commit-msg
+
 ```
 
 为了确保其他开发者在克隆项目后也能安装 Husky hooks，你可以在 package.json 中添加 Husky 的安装命令：
@@ -153,7 +162,7 @@ npx husky install
 - 安装：
 
 ```js
-  npm install --save-dev conventional-changelog conventional-changelog-cli
+  pnpm i --save-dev conventional-changelog conventional-changelog-cli
 ```
 
 - 配置 `package.json`:
