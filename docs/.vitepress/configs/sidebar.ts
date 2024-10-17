@@ -297,6 +297,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: 'Git', link: '/web2/DevOps/Git/Git' },
     { text: 'Shell', link: '/web2/DevOps/Shell/Shell' },
     { text: 'git钩子', link: '/web2/DevOps/Git/git钩子' },
+    { text: 'Docker', link: '/web2/DevOps/Docker' },
   ],
 
   '/web2/engineering/监控': [
