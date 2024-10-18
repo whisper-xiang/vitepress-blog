@@ -293,11 +293,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
 
-  '/web2/devops/': [
-    { text: 'Git', link: '/web2/devops/git/git' },
-    { text: 'Shell', link: '/web2/devops/shell/shell' },
-    { text: 'git钩子', link: '/web2/devops/git/git钩子' },
-    { text: 'Docker', link: '/web2/devops/docker' },
+  '/web2/DevOps/': [
+    { text: 'Git', link: '/web2/DevOps/Git/index' },
+    { text: 'Shell', link: '/web2/DevOps/Shell/index' },
+    { text: 'Git Hooks', link: '/web2/DevOps/Git/GitHooks' },
+    { text: 'Docker', link: '/web2/DevOps/Docker/index' },
   ],
 
   '/web2/engineering/监控': [

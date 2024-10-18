@@ -433,6 +433,11 @@ packed-refs 文件是一个二进制文件，包含了 Git 仓库的所有引用
 
 这个文件保存了最近一次提交时的提交信息（commit message），供再次编辑或修改时使用。
 
-## 六、参考文档
+## 参考文档
 
 - [保姆级 Git 教程，10000 字详解](https://github.com/CoderLeixiaoshuai/java-eight-part/blob/master/docs/tools/git/%E4%BF%9D%E5%A7%86%E7%BA%A7Git%E6%95%99%E7%A8%8B%EF%BC%8C10000%E5%AD%97%E8%AF%A6%E8%A7%A3.md#git-stash)
+
+## 延伸文章
+
+- [协作工作流](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322730&idx=1&sn=6b7593e2cd29747ba424b9ca987ac86c&chksm=8f09c930b87e40269c52f2156d1ed08ce87509f4eca25aeb49f4977e97164622f614d3b93dd0&token=1553501157&lang=zh_CN#rd)
+- [Pull Request VS Merge Request](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650323040&idx=1&sn=12b5f1342661c7964f8908eb1e14f590&chksm=8f09c67ab87e4f6ce6aa04b9a12ab95700089455b682eea6007e90172ec2d92f705277da34f6&token=1553501157&lang=zh_CN#rd)
