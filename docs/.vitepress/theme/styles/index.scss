@@ -1,8 +1,8 @@
-@import './rainbow.scss';
-@import './vars.scss';
-@import './vitepress.scss';
-@import './medium-zoom.scss';
-@import './tailwind.scss';
+@use './rainbow.scss';
+@use './vars.scss';
+@use './vitepress.scss';
+@use './medium-zoom.scss';
+@use './tailwind.scss';
 
 table tr:nth-child(odd) {
   border-color: var(--vp-custom-block-tip-border);
