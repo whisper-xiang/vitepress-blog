@@ -9,6 +9,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'HTML', link: '/web2/html/01-语义化标签' },
       { text: 'CSS', link: '/web2/css/01-Layout' },
       { text: '浏览器原理', link: '/web2/browser/index' },
+      { text: 'Utils', link: '/web2/Utils/树表转换' },
       {
         text: '前端工程',
         items: [
@@ -48,7 +49,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
   },
   {
-    text: '笔记 & 想法',
+    text: '笔记',
     items: [
       { text: '日常笔记', link: '/daily-notes/', activeMatch: '^/daily-notes' },
       {
@@ -58,7 +59,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       },
 
       { text: '金融', link: '/notes/finance/课程/01-金融的定义与演化' },
-      { text: '哲学', link: '/notes/philosophy/01-我是谁' },
+      // { text: '哲学', link: '/notes/philosophy/01-我是谁' },
     ],
   },
   {

@@ -29,7 +29,7 @@ features:
     linkText: 前端常用知识
 
   - icon: 📘
-    title: 笔记 & 想法
+    title: 笔记
     details: 日常笔记和读书感悟<small></small><br />还有一些对世界的看法
     link: /notes/finance/
     linkText: 悟已往之不谏，知来者之可追

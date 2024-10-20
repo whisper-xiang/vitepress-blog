@@ -153,6 +153,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '08-垃圾回收', link: '/web2/browser/08-垃圾回收' },
       ],
     },
+    {
+      text: 'Utils',
+      collapsed: false,
+      items: [
+        { text: '树表转换', link: '/web2/Utils/树表转换' },
+        { text: '逻辑判断', link: '/web2/Utils/逻辑判断' },
+      ],
+    },
     // { text: '性能优化', link: '/web2/others/性能优化' },
   ],
   '/web2/framework/': [

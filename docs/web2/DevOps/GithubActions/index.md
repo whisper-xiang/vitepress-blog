@@ -14,3 +14,8 @@ GitHub Actions 的最大特点是可以直接在 GitHub 仓库中配置和运行
 - Job（任务）： 一个工作流可以包含多个 job，每个 job 代表一组任务。不同的 job 可以并行运行，也可以指定执行顺序。
 - Step（步骤）： 每个 job 由多个步骤组成，每个步骤执行一个命令或操作。
 - Runner（执行器）： 是运行 job 的环境。GitHub 提供托管的 runner，也可以使用自托管的 runner。
+
+## 参考
+
+- [GitHub Actions 入门教程](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+- [GitHub Actions 教程](https://oragekk.me/tutorial/github/github-action.html#%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B)
