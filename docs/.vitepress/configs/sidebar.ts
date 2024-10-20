@@ -309,30 +309,30 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: '06-架构设计', link: '/web2/engineering/监控/06-架构设计' },
   ],
 
-  '/notes&thoughts/finance/': [
+  '/notes/finance/': [
     {
       text: '北大金融课',
       collapsed: false,
       items: [
-        { text: '01-金融的定义与演化', link: '/notes&thoughts/finance/课程/01-金融的定义与演化' },
-        { text: '02-金融机构的作用', link: '/notes&thoughts/finance/课程/02-金融机构的作用' },
+        { text: '01-金融的定义与演化', link: '/notes/finance/课程/01-金融的定义与演化' },
+        { text: '02-金融机构的作用', link: '/notes/finance/课程/02-金融机构的作用' },
         {
           text: '03-个人资产配置的生命周期',
-          link: '/notes&thoughts/finance/课程/03-个人资产配置的生命周期',
+          link: '/notes/finance/课程/03-个人资产配置的生命周期',
         },
-        { text: '04-货币与信用', link: '/notes&thoughts/finance/课程/04-货币与信用' },
-        { text: '05-银行与理财', link: '/notes&thoughts/finance/课程/05-银行与理财' },
-        { text: '06-生活中的银行', link: '/notes&thoughts/finance/课程/06-生活中的银行' },
-        { text: '07-发行承销', link: '/notes&thoughts/finance/课程/07-发行承销' },
-        { text: '08-兼并收购', link: '/notes&thoughts/finance/课程/08-兼并收购' },
+        { text: '04-货币与信用', link: '/notes/finance/课程/04-货币与信用' },
+        { text: '05-银行与理财', link: '/notes/finance/课程/05-银行与理财' },
+        { text: '06-生活中的银行', link: '/notes/finance/课程/06-生活中的银行' },
+        { text: '07-发行承销', link: '/notes/finance/课程/07-发行承销' },
+        { text: '08-兼并收购', link: '/notes/finance/课程/08-兼并收购' },
         {
           text: '09-金融创新-投行创新业务',
-          link: '/notes&thoughts/finance/课程/09-金融创新-投行创新业务',
+          link: '/notes/finance/课程/09-金融创新-投行创新业务',
         },
-        { text: '10资产证券化', link: '/notes&thoughts/finance/课程/10资产证券化' },
-        { text: '11-基金', link: '/notes&thoughts/finance/课程/11-基金' },
-        { text: '12-另类投资', link: '/notes&thoughts/finance/课程/12-另类投资' },
-        { text: '13-基金业绩', link: '/notes&thoughts/finance/课程/13-基金业绩' },
+        { text: '10资产证券化', link: '/notes/finance/课程/10资产证券化' },
+        { text: '11-基金', link: '/notes/finance/课程/11-基金' },
+        { text: '12-另类投资', link: '/notes/finance/课程/12-另类投资' },
+        { text: '13-基金业绩', link: '/notes/finance/课程/13-基金业绩' },
       ],
     },
     {
@@ -340,35 +340,35 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         {
           text: '美联储降息',
-          link: '/notes&thoughts/finance/杂文/美联储降息',
+          link: '/notes/finance/杂文/美联储降息',
         },
         {
           text: '什么是市场经济',
-          link: '/notes&thoughts/finance/杂文/市场经济',
+          link: '/notes/finance/杂文/市场经济',
         },
       ],
     },
     {
       text: '股票',
-      items: [{ text: '基础', link: '/notes&thoughts/finance/股票/01-基础' }],
+      items: [{ text: '基础', link: '/notes/finance/股票/01-基础' }],
     },
   ],
-  '/notes&thoughts/essay/': [
+  '/notes/essay/': [
     {
       text: '读书笔记',
       collapsed: false,
       items: [
-        { text: '洞穴奇案', link: '/notes&thoughts/essay/洞穴奇案' },
-        { text: '哲学导论', link: '/notes&thoughts/essay/哲学导论' },
-        { text: '一本书读懂Web 3.0', link: '/notes&thoughts/essay/一本书读懂Web3.0' },
-        { text: '独立开发手册', link: '/notes&thoughts/essay/独立开发手册' },
+        { text: '洞穴奇案', link: '/notes/essay/洞穴奇案' },
+        { text: '哲学导论', link: '/notes/essay/哲学导论' },
+        { text: '一本书读懂Web 3.0', link: '/notes/essay/一本书读懂Web3.0' },
+        { text: '独立开发手册', link: '/notes/essay/独立开发手册' },
       ],
     },
   ],
-  '/notes&thoughts/philosophy/': [
+  '/notes/philosophy/': [
     {
       text: '哲学',
-      items: [{ text: '我是谁', link: '/notes&thoughts/philosophy/01-我是谁' }],
+      items: [{ text: '我是谁', link: '/notes/philosophy/01-我是谁' }],
     },
   ],
   '/AI': [

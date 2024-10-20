@@ -31,7 +31,7 @@ features:
   - icon: 📘
     title: 笔记 & 想法
     details: 日常笔记和读书感悟<small></small><br />还有一些对世界的看法
-    link: /notes&thoughts/finance/
+    link: /notes/finance/
     linkText: 悟已往之不谏，知来者之可追
   # - icon: 📖
   #   title: 前端
