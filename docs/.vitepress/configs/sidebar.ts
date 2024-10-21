@@ -307,6 +307,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     { text: 'Shell', link: '/web2/DevOps/Shell/index.md' },
     { text: 'Git Hooks', link: '/web2/DevOps/Git/GitHooks.md' },
     { text: 'Docker', link: '/web2/DevOps/Docker/index.md' },
+    { text: 'Nginx', link: '/web2/DevOps/Nginx/index.md' },
   ],
 
   '/web2/engineering/监控': [
