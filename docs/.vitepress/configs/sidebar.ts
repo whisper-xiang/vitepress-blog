@@ -302,6 +302,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   ],
 
   '/web2/DevOps/': [
+    { text: '概览', link: '/web2/DevOps/index.md' },
     { text: 'Git', link: '/web2/DevOps/Git/index.md' },
     { text: 'Shell', link: '/web2/DevOps/Shell/index.md' },
     { text: 'Git Hooks', link: '/web2/DevOps/Git/GitHooks.md' },
@@ -358,7 +359,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
     {
       text: '股票',
-      items: [{ text: '基础', link: '/notes/finance/股票/01-基础' }],
+      items: [
+        { text: '术语', link: '/notes/finance/股票/00-术语' },
+        { text: '基础', link: '/notes/finance/股票/01-基础' },
+      ],
     },
   ],
   '/notes/essay/': [
