@@ -59,7 +59,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       },
 
       { text: '金融', link: '/notes/finance/课程/01-金融的定义与演化' },
-      // { text: '哲学', link: '/notes/philosophy/01-我是谁' },
+      { text: '哲学', link: '/notes/philosophy/上帝' },
     ],
   },
   {
