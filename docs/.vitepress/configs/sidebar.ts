@@ -164,7 +164,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // { text: '性能优化', link: '/web2/others/性能优化' },
   ],
   '/web2/framework/': [
-    { text: 'Vue2基础', link: '/web2/framework/Vue2基础' },
     {
       text: 'Angular基础',
       collapsed: false,
@@ -178,6 +177,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '07-模块', link: '/web2/framework/Angular基础/07-模块' },
       ],
     },
+    { text: 'Vue2基础', link: '/web2/framework/Vue2基础' },
   ],
 
   '/web2/engineering/normalize': [
@@ -301,6 +301,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
 
+  '/web2/架构/': [{ text: '微前端', link: '/web2/架构/微前端/index' }],
+
   '/web2/DevOps/': [
     { text: '概览', link: '/web2/DevOps/index.md' },
     { text: 'Git', link: '/web2/DevOps/Git/index.md' },
@@ -381,7 +383,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/notes/philosophy/': [
     {
       text: '哲学',
-      items: [{ text: '上帝', link: '/notes/philosophy/上帝' }],
+      items: [
+        { text: '上帝', link: '/notes/philosophy/上帝' },
+        { text: '生活的意义', link: '/notes/philosophy/生活的意义' },
+      ],
     },
   ],
   '/AI': [

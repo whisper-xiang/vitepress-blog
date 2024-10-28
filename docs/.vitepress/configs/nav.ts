@@ -14,8 +14,9 @@ export const nav: DefaultTheme.Config['nav'] = [
         text: '前端工程',
         items: [
           { text: '规范', link: '/web2/engineering/normalize/environment/环境和工具' },
-          { text: '框架', link: '/web2/framework/Vue2基础' },
+          { text: '框架', link: '/web2/framework/Angular基础/01-AngularCLI' },
           { text: '监控', link: '/web2/engineering/监控/01-概览' },
+          { text: '架构', link: '/web2/架构/微前端/index' },
           { text: 'DevOps', link: '/web2/DevOps/index' },
           // { text: 'Docker', link: '/web2/DevOps/Docker' },
           // { text: 'Docker', link: '/web2/engineering/Docker' },
