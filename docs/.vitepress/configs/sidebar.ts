@@ -387,6 +387,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '概述', link: '/notes/philosophy/概述' },
         { text: '上帝', link: '/notes/philosophy/上帝' },
         { text: '生活的意义', link: '/notes/philosophy/生活的意义' },
+        // { text: '自由', link: '/notes/philosophy/自由' },
+        // { text: '哲学、性、种族和文化', link: '/notes/philosophy/哲学、性、种族和文化' },
       ],
     },
   ],
