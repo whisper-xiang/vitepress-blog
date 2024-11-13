@@ -67,8 +67,8 @@ features:
 <style>
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
+  transform: translate(-50%, -50%) rotate(360deg);
+  transition: transform 2s 0.2s cubic-bezier(0.3, 0, 0.8, 1);
 }
 
 .m-home-layout .details small {

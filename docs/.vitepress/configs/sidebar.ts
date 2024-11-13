@@ -301,7 +301,16 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // { text: '前端监控', link: '/web2/engineering/前端监控' },
   ],
 
-  '/web2/架构/': [{ text: '微前端', link: '/web2/架构/微前端/index' }],
+  '/web2/架构/': [
+    {
+      text: '前端架构',
+      collapsed: false,
+      items: [
+        { text: '微前端', link: '/web2/架构/微前端/index' },
+        { text: '软件工程的难题', link: '/web2/架构/微前端/软件工程的难题/index' },
+      ],
+    },
+  ],
 
   '/web2/DevOps/': [
     { text: '概览', link: '/web2/DevOps/index.md' },
