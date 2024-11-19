@@ -386,6 +386,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '哲学导论', link: '/notes/essay/哲学导论' },
         { text: '一本书读懂Web 3.0', link: '/notes/essay/一本书读懂Web3.0' },
         { text: '独立开发手册', link: '/notes/essay/独立开发手册' },
+        { text: '了解和实现微前端 AWS', link: '/notes/essay/了解和实现微前端/index' },
       ],
     },
   ],
