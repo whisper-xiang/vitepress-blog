@@ -44,7 +44,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '人类的悲欢并不相通，我只觉得他们吵闹',
+      message: '人类的悲欢并不相通，我只觉着他们吵闹',
       copyright: 'Copyright © 2024-present 轻语',
     },
 

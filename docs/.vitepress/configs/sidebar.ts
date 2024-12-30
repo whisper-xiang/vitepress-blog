@@ -357,6 +357,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ],
     },
     {
+      text: '代币经济学',
+      items: [{ text: '术语', link: '/notes/finance/代币/01-基础' }],
+    },
+    {
       text: '杂文',
       items: [
         {
