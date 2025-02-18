@@ -362,7 +362,17 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     // },
     {
       text: '币圈',
-      items: [{ text: '入门', link: '/notes/finance/币圈/01-概览' }],
+      items: [
+        { text: '01-入门', link: '/notes/finance/币圈/01-概览' },
+        { text: '02-基础知识', link: '/notes/finance/币圈/02-基础知识' },
+        { text: '03-生态', link: '/notes/finance/币圈/03-生态' },
+        { text: '04-项目角色', link: '/notes/finance/币圈/04-项目角色' },
+        { text: '05-币的种类', link: '/notes/finance/币圈/05-币的种类' },
+        { text: '06-资金管理', link: '/notes/finance/币圈/06-资金管理' },
+        { text: '07-安全及法律', link: '/notes/finance/币圈/07-安全及法律' },
+        { text: '08-工具', link: '/notes/finance/币圈/08-工具' },
+        { text: '09-交易类型', link: '/notes/finance/币圈/09-交易类型' },
+      ],
     },
     {
       text: '杂文',
