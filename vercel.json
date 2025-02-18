@@ -1,3 +1,15 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "pnpm store prune && pnpm install && pnpm run build"
+      }
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
