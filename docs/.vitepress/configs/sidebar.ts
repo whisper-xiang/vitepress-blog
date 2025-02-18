@@ -356,15 +356,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '13-基金业绩', link: '/notes/finance/课程/13-基金业绩' },
       ],
     },
-    {
-      text: '代币经济学',
-      items: [{ text: '术语', link: '/notes/finance/代币/01-基础' }],
-    },
+    // {
+    //   text: '代币经济学',
+    //   items: [{ text: '术语', link: '/notes/finance/代币/01-基础' }],
+    // },
     {
       text: '币圈',
-      items: [
-        {text: '入门', link: '/notes/finance/币圈/01-概览' }
-      ]
+      items: [{ text: '入门', link: '/notes/finance/币圈/01-概览' }],
     },
     {
       text: '杂文',
